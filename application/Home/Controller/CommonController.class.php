@@ -29,4 +29,10 @@ class CommonController extends Controller{
             return 1;
         }
     }
+
+    //重置session中保存的用户信息
+    function sessionFlush($id){
+        $user = D('user1');
+        $_SESSION['uinfo'] = $user->find($id);
+    }
 }

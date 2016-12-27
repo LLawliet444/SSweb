@@ -351,3 +351,1202 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
 
+[ 2016-12-27T20:54:42+08:00 ] 127.0.0.1 /User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012207s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011771s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011869s ]
+
+[ 2016-12-27T20:54:49+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-27T20:55:21+08:00 ] 127.0.0.1 /User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2016-12-27T20:55:21+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-27T20:57:26+08:00 ] 127.0.0.1 /User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-12-27T20:57:28+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+ERR: 非法操作:userModify
+
+[ 2016-12-27T20:57:47+08:00 ] 127.0.0.1 /User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2016-12-27T20:57:48+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-12-27T21:07:58+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-12-27T21:08:35+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [8] Undefined index: user_name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1307 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2016-12-27T21:10:38+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [8] Undefined index: user_name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1307 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2016-12-27T21:11:22+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [8] Undefined index: user_name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1307 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-12-27T21:11:52+08:00 ] 127.0.0.1 /User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001739s ]
+
+[ 2016-12-27T21:12:43+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [8] Undefined index: user_name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1307 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2016-12-27T21:13:54+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [8] Undefined index: user_name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1307 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-12-27T21:14:44+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [8] Undefined index: user_name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1307 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-12-27T21:14:47+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [8] Undefined index: user_name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1307 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2016-12-27T21:15:34+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [8] Undefined index: user_name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1307 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2016-12-27T21:17:59+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_tel E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1307 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-12-27T21:18:43+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_tel E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1307 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-12-27T21:19:05+08:00 ] 127.0.0.1 /User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002107s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-12-27T21:19:41+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: auto E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1132 行.
+NOTIC: [2] Missing argument 1 for setMd5() E:\Project\application\Common\Common\myfunc.php 第 13 行.
+NOTIC: [8] Undefined variable: data E:\Project\application\Common\Common\myfunc.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-12-27T21:20:54+08:00 ] 127.0.0.1 /User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001656s ]
+
+[ 2016-12-27T21:21:30+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: auto E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1132 行.
+NOTIC: [2] Missing argument 1 for setMd5() E:\Project\application\Common\Common\myfunc.php 第 13 行.
+NOTIC: [8] Undefined variable: data E:\Project\application\Common\Common\myfunc.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-12-27T21:24:06+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: auto E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1132 行.
+NOTIC: [2] Missing argument 1 for setMd5() E:\Project\application\Common\Common\myfunc.php 第 13 行.
+NOTIC: [8] Undefined variable: data E:\Project\application\Common\Common\myfunc.php 第 14 行.
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : UPDATE `ss_user1` SET `user_nickname`='张欣欣',`user_sex`='女',`user_addr`='',`user_intro`='这个是一个测试账号',`user_tel`='13520736670',`user_birth`='2016-12-27',`user_pwd`='d41d8cd98f00b204e9800998ecf8427e' WHERE ( id=2 )
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : UPDATE `ss_user1` SET `user_nickname`='张欣欣',`user_sex`='女',`user_addr`='',`user_intro`='这个是一个测试账号',`user_tel`='13520736670',`user_birth`='2016-12-27',`user_pwd`='d41d8cd98f00b204e9800998ecf8427e' WHERE ( id=2 )
+
+[ 2016-12-27T21:24:59+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: auto E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1132 行.
+NOTIC: [2] Missing argument 1 for setMd5() E:\Project\application\Common\Common\myfunc.php 第 13 行.
+NOTIC: [8] Undefined variable: data E:\Project\application\Common\Common\myfunc.php 第 14 行.
+SQL: UPDATE `ss_user1` SET `user_nickname`='张欣欣',`user_sex`='女',`user_addr`='',`user_intro`='这个是一个测试账号',`user_tel`='13520736670',`user_birth`='2016-12-27',`user_pwd`='d41d8cd98f00b204e9800998ecf8427e' WHERE ( user_id=2 ) [ RunTime:0.1940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002134s ]
+
+[ 2016-12-27T21:25:31+08:00 ] 127.0.0.1 /User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001477s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002231s ]
+
+[ 2016-12-27T21:30:57+08:00 ] 127.0.0.1 /User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003517s ]
+
+[ 2016-12-27T21:32:52+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-12-27T21:32:52+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000799s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000988s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-12-27T21:32:52+08:00 ] 127.0.0.1 /Public/Common/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-27T21:32:54+08:00 ] 127.0.0.1 /Login/logOut.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000657s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2016-12-27T21:32:56+08:00 ] 127.0.0.1 /Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000677s ]
+
+[ 2016-12-27T21:33:02+08:00 ] 127.0.0.1 /Login/checkLogUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001838s ]
+
+[ 2016-12-27T21:33:11+08:00 ] 127.0.0.1 /Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-12-27T21:33:13+08:00 ] 127.0.0.1 /Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-12-27T21:33:18+08:00 ] 127.0.0.1 /Login/checkLogUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2016-12-27T21:33:21+08:00 ] 127.0.0.1 /Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-12-27T21:33:22+08:00 ] 127.0.0.1 /Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2016-12-27T21:33:26+08:00 ] 127.0.0.1 /Login/checkLogUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001603s ]
+
+[ 2016-12-27T21:33:30+08:00 ] 127.0.0.1 /Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-12-27T21:33:31+08:00 ] 127.0.0.1 /Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006874s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-12-27T21:33:43+08:00 ] 127.0.0.1 /Login/checkLogUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001642s ]
+
+[ 2016-12-27T21:33:47+08:00 ] 127.0.0.1 /Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-12-27T21:33:49+08:00 ] 127.0.0.1 /Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000557s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-12-27T21:34:02+08:00 ] 127.0.0.1 /Login/checkLogUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001599s ]
+
+[ 2016-12-27T21:34:10+08:00 ] 127.0.0.1 /Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002377s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-12-27T21:36:21+08:00 ] 127.0.0.1 /Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001170s ]
+
+[ 2016-12-27T21:36:23+08:00 ] 127.0.0.1 /Main/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2016-12-27T21:36:23+08:00 ] 127.0.0.1 /Public/Common/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-27T21:36:23+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003373s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003635s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2016-12-27T21:36:25+08:00 ] 127.0.0.1 /User/myIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+
+[ 2016-12-27T21:36:26+08:00 ] 127.0.0.1 /User/index/userid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-12-27T21:36:26+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-27T21:36:28+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001964s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2016-12-27T21:41:25+08:00 ] 127.0.0.1 /User/myIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+
+[ 2016-12-27T21:41:25+08:00 ] 127.0.0.1 /User/index/userid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002082s ]
+
+[ 2016-12-27T21:41:25+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001800s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-27T21:41:27+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2016-12-27T21:42:07+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: auto E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1132 行.
+SQL: UPDATE `ss_user1` SET `user_nickname`='张欣欣',`user_sex`='女',`user_addr`='',`user_intro`='这是一个测试账号',`user_tel`='13520736670',`user_birth`='2016-12-27' WHERE ( user_id=2 ) [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2016-12-27T21:42:09+08:00 ] 127.0.0.1 /User/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ss_user1` WHERE ( user_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ss_user1` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-27T21:44:04+08:00 ] 127.0.0.1 /User/smsgIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: select s.*,u1.user_nickname,u1.user_header,u1.user_id from ss_smsg as s left join ss_user1 as u1 on s.from_id=u1.user_id where u1.user_id in (2,1) order by s.smsg_ctime desc [ RunTime:0.0347s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=15 and up_type=0 )  [ RunTime:0.0338s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=14 and up_type=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=12 and up_type=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=11 and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=4 and up_type=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=3 and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=2 and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=1 and up_type=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=15 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0319s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=13 and up_type=1 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=14 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=12 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=11 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=4 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=3 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=2 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=12 and up_type=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=1 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=1 and up_type=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=6 and up_type=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=7 and up_type=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=8 and up_type=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=9 and up_type=1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-12-27T21:44:04+08:00 ] 127.0.0.1 /User/myIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+
+[ 2016-12-27T21:44:04+08:00 ] 127.0.0.1 /User/index/userid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2016-12-27T21:44:04+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009914s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-27T21:44:06+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001349s ]
+
+[ 2016-12-27T21:44:19+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: auto E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1132 行.
+ERR: 1292:Incorrect date value: '' for column 'user_birth' at row 1
+ [ SQL语句 ] : UPDATE `ss_user1` SET `user_nickname`='张欣欣',`user_sex`='女',`user_addr`='',`user_intro`='这是一个测试账号',`user_tel`='13520736670',`user_birth`='' WHERE ( user_id=2 )
+ERR: 1292:Incorrect date value: '' for column 'user_birth' at row 1
+ [ SQL语句 ] : UPDATE `ss_user1` SET `user_nickname`='张欣欣',`user_sex`='女',`user_addr`='',`user_intro`='这是一个测试账号',`user_tel`='13520736670',`user_birth`='' WHERE ( user_id=2 )
+
+[ 2016-12-27T21:44:34+08:00 ] 127.0.0.1 /User/myIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+
+[ 2016-12-27T21:44:34+08:00 ] 127.0.0.1 /User/index/userid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2016-12-27T21:44:34+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002735s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-27T21:44:34+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-27T21:44:36+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2016-12-27T21:45:24+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [8] Undefined index: user_sex E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: auto E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1132 行.
+SQL: UPDATE `ss_user1` SET `user_nickname`='张欣欣',`user_addr`='',`user_intro`='',`user_tel`='13520736670',`user_birth`='2016-12-27' WHERE ( user_id=2 ) [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000272s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2016-12-27T21:45:27+08:00 ] 127.0.0.1 /index/userid/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+ERR: 非法操作:userid
+
+[ 2016-12-27T21:46:53+08:00 ] 127.0.0.1 /User/myIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+
+[ 2016-12-27T21:46:53+08:00 ] 127.0.0.1 /User/index/userid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2016-12-27T21:46:53+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-27T21:46:56+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000849s ]
+
+[ 2016-12-27T21:47:04+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: auto E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1132 行.
+SQL: UPDATE `ss_user1` SET `user_nickname`='张欣欣',`user_sex`='女',`user_addr`='',`user_intro`='',`user_tel`='13520736670',`user_birth`='2016-12-27' WHERE ( user_id=2 ) [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-12-27T21:47:08+08:00 ] 127.0.0.1 /User/userinfo.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2016-12-27T21:47:21+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: auto E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1132 行.
+SQL: UPDATE `ss_user1` SET `user_nickname`='张欣欣',`user_sex`='女',`user_addr`='',`user_intro`='这是一个测试账号',`user_tel`='13520736670',`user_birth`='2016-12-27' WHERE ( user_id=2 ) [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2016-12-27T21:47:23+08:00 ] 127.0.0.1 /User/index/userid/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2016-12-27T21:47:23+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004142s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-27T21:47:32+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+

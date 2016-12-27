@@ -271,4 +271,21 @@ class UserController extends CommonController{
         dump($data);
         $this->display();
     }
+
+    //修改个人资料
+    function userModify(){
+        $user1 = D('User1');
+        $id = $_SESSION['uinfo']['user_id'];
+        $data = $user1->create('',2);
+        if(!$data){
+            echo $user1->getError();
+            die();
+        }
+        if($user1->where('user_id='.$id)->save($data)){
+            $this->sessionFlush($id);
+            $this->success('修改成功','/User/index/userid/'.$id.'.html',3);
+        }else{
+            $this->error('修改失败',U('userinfo'),3);
+        }
+    }
 }

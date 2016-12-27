@@ -14,7 +14,7 @@ class User1Model extends RelationModel{
     protected $pk = 'user_id';
     //主要字段
     protected $fields = array(
-        'user_id','user_name','user_nickname','user_pwd','user_addr','user_sex','user_birth','user_intro','user_email','user_ctime','user_header','user_attention','user_tel','user_check','user_fans',
+        'user_id','user_name','user_nickname','user_pwd','user_addr','user_sex','user_birth','user_intro','user_email','user_ctime','user_header','user_attention','user_tel','user_check','user_cnum','user_fnum','user_fans','user_telcheck',
     );
     //关联关系
 //    protected $_link = array(
@@ -30,23 +30,30 @@ class User1Model extends RelationModel{
         'username'=>'user_name',
         'pwd'=>'user_pwd',
         'email'=>'user_email',
+        'nickname'=>'user_nickname',
+        'sex'=>'user_sex',
+        'addr'=>'user_addr',
+        'intro'=>'user_intro',
+        'tel'=>'user_tel',
+        'birth'=>'user_birth',
+
     );
     //自动验证
     protected $_validate= array(
-        array('user_name','username','用户名必须为6-16位数字字母下划线组合',1,'regex',3),
-        array('user_pwd','password','密码必须为6-16位数字字母下划线组合',1,'regex',3),
-        array('re-pwd','user_pwd','两次密码不一致',1,'confirm',3),
+        array('user_name','username','用户名必须为6-16位数字字母下划线组合',1,'regex',1),
+        array('user_pwd','password','密码必须为6-16位数字字母下划线组合',1,'regex',1),
+        array('re-pwd','user_pwd','两次密码不一致',1,'confirm',1),
         array('user_nickname','require','昵称不能为空',1,'regex',2),
         array('user_sex','checkSex','性别格式错误',1,'function',2),
         array('user_birthday','checkBirthday','性别格式错误',1,'function',2),
         array('user_tel','tel','手机号格式不正确',1,'regex',2),
-        array('user_email','email','邮箱格式不正确',1,'regex',3),
+        array('user_email','email','邮箱格式不正确',1,'regex',1),
     );
 
     //自动完成
     protected $_auto = array(
 //        'user_id','user_name','user_nickname','user_pwd','user_addr','user_sex','user_birth','user_intro','user_email','user_ctime','user_header','user_attention','user_tel','user_check',
-        array('user_pwd','setMd5',3,'function'),
+        array('user_pwd','setMd5',1,'function'),
         array('user_ctime','setDate',1,'function'),
         array('user_nickname','user_name',1,'field'),
         array('user_sex','男',1,'string'),

@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="ibox-content">
-                        <form method="get" class="form-horizontal">
+                        <form method="post" action="<?php echo U('userModify');?>" class="form-horizontal">
 							<div class="form-group">
 								<label class="col-sm-2 control-label">用户名</label>
 
@@ -59,14 +59,14 @@
                                 <label class="col-sm-2 control-label">昵称</label>
 
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" value="<?php echo ($_SESSION['uinfo']['user_nickname']); ?>">
+                                    <input type="text" class="form-control" value="<?php echo ($_SESSION['uinfo']['user_nickname']); ?>" name="nickname">
                                 </div>
                             </div>
 							<div class="hr-line-dashed"></div>
 							<div class="form-group">
 								<label class="col-sm-2 control-label">头像</label>
 								<div class="col-sm-10">
-									<input type="file" class="" value="<?php echo ($_SESSION['uinfo']['user_nickname']); ?>">
+									<input type="file" value="<?php echo ($_SESSION['uinfo']['user_nickname']); ?>">
 								</div>
 							</div>
 							<div class="hr-line-dashed"></div>
@@ -75,15 +75,15 @@
 								<div class="col-sm-10">
 									<div class="radio radio-success  radio-inline">
 
-										<input type="radio" id="nan" value="option1" name="sex"> <label for="nan">男</label>
+										<input type="radio" id="nan" value="男" name="sex"> <label for="nan">男</label>
 									</div>
 									<div class="radio radio-success  radio-inline">
 
-										<input type="radio" id="nv" value="option2" name="sex"> <label for="nv">女</label>
+										<input type="radio" id="nv" value="女" name="sex"> <label for="nv">女</label>
 									</div>
 									<div class="radio radio-success radio-inline">
 
-										<input type="radio" id="mi" value="option2" name="sex"> <label for="mi">保密</label>
+										<input type="radio" id="mi" value="未知" name="sex"> <label for="mi">保密</label>
 									</div>
 								</div>
 							</div>
@@ -92,7 +92,7 @@
 							<div class="form-group">
 								<label class="col-sm-2 control-label">地址</label>
 								<div class="col-sm-10">
-									<select data-placeholder="请选择一个省份" class="chosen-select from-control" style="width:350px;height:30px;" tabindex="2">
+									<select data-placeholder="请选择一个省份" class="chosen-select from-control" style="width:350px;height:30px;" tabindex="2" name="addr">
 										<option value="">请选择省份</option>
 										<option value="United States">United States</option>
 										<option value="United Kingdom">United Kingdom</option>
@@ -112,7 +112,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">个人介绍</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control"> <span class="help-block m-b-none">将会显示在您的主页上</span>
+                                    <input type="text" class="form-control" name="intro"> <span class="help-block m-b-none" >将会显示在您的主页上</span>
                                 </div>
                             </div>
 
@@ -122,7 +122,7 @@
 
 								<div class="col-sm-10">
 									<div class="input-group">
-										<input type="text" disabled="" value="<?php echo ($_SESSION['uinfo']['user_email']); ?>" placeholder="未填写" class="form-control">
+										<input type="text" disabled="" value="<?php echo ($_SESSION['uinfo']['user_email']); ?>" placeholder="未填写" class="form-control" name="email">
 										<span class="input-group-btn">
 											<?php if($_SESSION['uinfo']['user_check']== 0): ?><button type="button" class="btn btn-primary">未验证，点击验证
 												</button>
@@ -141,9 +141,9 @@
 
 								<div class="col-sm-10">
 									<div class="input-group">
-										<input type="text" disabled="" value="<?php echo ($_SESSION['uinfo']['user_tel']); ?>" placeholder="未填写" class="form-control">
+										<input type="text" readonly value="<?php echo ($_SESSION['uinfo']['user_tel']); ?>" placeholder="未填写" class="form-control" id="tel" name="tel">
 										<span class="input-group-btn">
-											<?php if($_SESSION['uinfo']['tel']== NULL): ?><button type="button" class="btn btn-default">填写
+											<?php if($_SESSION['uinfo']['tel']== NULL): ?><button type="button" class="btn btn-default sign">填写
 												</button><?php endif; ?>
 											<?php if($_SESSION['uinfo']['telcheck']== 1): ?><button type="button" class="btn btn-primary">未验证，点击验证
 												</button><?php endif; ?>
@@ -160,7 +160,7 @@
 							<div class="form-group">
 								<label class="col-sm-2 control-label">生日：</label>
 								<div class="col-sm-10">
-									<input readonly class="form-control layer-date" id="hello">
+									<input readonly class="form-control layer-date" id="hello" name="birth">
 									<label class="laydate-icon inline demoicon" onclick="laydate({elem: '#hello'});"></label>
 								</div>
 							</div>
@@ -200,6 +200,11 @@
 		laydate({
 			elem: '#hello', //目标元素。由于laydate.js封装了一个轻量级的选择器引擎，因此elem还允许你传入class、tag但必须按照这种方式 '#id .class'
 			event: 'click' //响应事件。如果没有传入event，则按照默认的click
+		});
+
+		//填写手机号
+		$('.sign').click(function(){
+			document.querySelector('#tel').removeAttribute('readonly');
 		});
     </script>
 
