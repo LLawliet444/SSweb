@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8ec19b8b-d726-411a-8f5a-c77ccb75434f" name="https://github.com/LLawliet444/SSweb.git" url="git@github.com:LLawliet444/SSweb.git">
+        <fileTransfer host="" port="21" password="dfe6dfe6dfcbdfdddfc6dfc3dfcfdfdedf9fdf98df9a" username="522618640@qq.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
