@@ -1,0 +1,163 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title> - 注册</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="/Public/Common/favicon.ico"> <link href="/Public/Common/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="/Public/Common/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="/Public/Common/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="/Public/Common/css/animate.css" rel="stylesheet">
+    <link href="/Public/Common/css/style.css?v=4.1.0" rel="stylesheet">
+	<style>
+		.point:hover{
+			cursor:pointer;
+		}
+	</style>
+    <script>if(window.top !== window.self){ window.top.location = window.location;}</script>
+
+</head>
+
+<body class="gray-bg">
+
+    <div class="middle-box text-center loginscreen   animated fadeInDown">
+        <div>
+            <div>
+
+                <h1 class="logo-name">S+</h1>
+
+            </div>
+            <h3>欢迎注册 S+</h3>
+            <p>创建一个S+新账户</p>
+            <form class="m-t" role="form" id="register" method="post" action="<?php echo U('regOk');?>">
+                <div class="form-group">
+                    <input type="text" name="username" id="username" class="form-control" placeholder="请输入用户名" required="">
+					<span id="check-user"></span>
+                </div>
+				<div class="form-group">
+					<input type="email" name="email" id="email" class="form-control" placeholder="请输入邮箱" required="">
+					<span id="check-email"></span>
+				</div>
+                <div class="form-group">
+                    <input type="password" name="pwd" id="pwd" class="form-control" placeholder="请输入密码" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="re-pwd" id="re-pwd" class="form-control" placeholder="请再次输入密码" required="">
+					<span id="check-pwd"></span>
+                </div>
+				<div class="form-group text-left">
+					<label class="point">
+						<input type="checkbox" name="agree" value="agree" id="agree"><i></i> 我同意注册协议</label>
+				</div>
+                <button type="submit" id="sub" class="btn btn-primary block full-width m-b">注 册</button>
+
+                <p class="text-muted text-center"><small>已经有账户了？</small><a href="<?php echo U('login');?>">点此登录</a>
+                </p>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- 全局js -->
+    <script src="/Public/Common/js/jquery.min.js?v=2.1.4"></script>
+    <script src="/Public/Common/js/bootstrap.min.js?v=3.3.6"></script>
+    <!-- iCheck -->
+    <script src="/Public/Common/js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+		//判断是否同意协议
+		document.querySelector('#sub').setAttribute('disabled',true);
+		$('#agree').click(function(){
+			var checked = $(this).prop('checked')
+			if ( checked ){
+//				alert('OK');
+				document.querySelector('#sub').removeAttribute('disabled');
+			}else{
+				document.querySelector('#sub').setAttribute('disabled',true);
+			}
+		})
+
+        $(document).ready(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+		//验证用户名是否重复
+		$(function(){
+			$('#username').blur(function(){
+				var username = $(this).val();
+				var check = $('#check-user');
+				check.html('loading...');
+				check.css('color','gray');
+				$.post("<?php echo U('checkRegUser');?>",'username='+username,function(msg){
+					check.html(msg);
+					if(msg=="OK"){
+						check.css('color','green')
+					}else{
+						check.css('color','red');
+//						$('#register').submit(function(){return false});
+					}
+				});
+			})
+		})
+		//验证邮箱是否重复
+		$(function(){
+			$('#email').blur(function(){
+				var email = $(this).val();
+				var check = $('#check-email');
+				check.html('loading...');
+				check.css('color','gray');
+				$.post("<?php echo U('checkRegEmail');?>",'email='+email,function(msg){
+					check.html(msg);
+					if(msg=="OK"){
+						check.css('color','green')
+					}else{
+						check.css('color','red');
+					}
+				});
+			})
+		})
+		//验证密码是否一致
+		$(function(){
+			$('#re-pwd').blur(function(){
+				var check = $('#check-pwd');
+				if($('#pwd').val == ''){
+					check.html("密码不可为空");
+					check.css('color','red');
+				}
+				if($('#pwd').val()!=$(this).val()){
+					check.html("两次密码不一致");
+					check.css('color','red');
+				}else{
+					check.html("OK");
+					check.css('color','green')
+				}
+			})
+		})
+		$(function(){
+			$('#pwd').blur(function(){
+				var check = $('#check-pwd');
+				if($(this).val == ''){
+					check.html("密码不可为空");
+					check.css('color','red');
+				}
+				if($('#re-pwd').val()!=$(this).val()){
+					check.html("两次密码不一致");
+					check.css('color','red');
+				}else{
+					check.html("OK");
+					check.css('color','green')
+				}
+			})
+		})
+    </script>
+</body>
+
+</html>

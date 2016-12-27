@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title> - 联系人</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="__COMMON__/favicon.ico"> <link href="__COMMON__/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="__COMMON__/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+
+    <link href="__COMMON__/css/animate.css" rel="stylesheet">
+    <link href="__COMMON__/css/style.css?v=4.1.0" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+			<volist name="friend" id="vo">
+				<div class="col-sm-4">
+					<div class="contact-box">
+						<a>
+							<div class="col-sm-4">
+								<div class="text-center">
+									<img alt="image" class="img-circle m-t-xs img-responsive" src="{$vo.user_header}">
+								</div>
+							</div>
+							<div class="col-sm-8 user" id="{$vo.user_id}">
+								<h3><strong>{$vo.user_nickname}</strong></h3>
+								<if condition="empty($vo['user_addr'])">
+									<p><i class="fa fa-map-marker"></i><strong> 未知</strong> </p>
+								<else />
+									<p><i class="fa fa-map-marker"></i><strong> {$vo.user_addr}</strong> </p>
+								</if>
+
+								<address>
+									<strong>Email:</strong>{$vo.user_email}<br>
+									<strong>sign:</strong><a href="">{$vo.intro}</a><br>
+									<strong title="Phone">Tel:</strong> {$vo.user_tel}
+								</address>
+							</div>
+							<div class="clearfix"></div>
+						</a>
+					</div>
+				</div>
+			</volist>
+        </div>
+    </div>
+
+    <!-- 全局js -->
+    <script src="__COMMON__/js/jquery.min.js?v=2.1.4"></script>
+    <script src="__COMMON__/js/bootstrap.min.js?v=3.3.6"></script>
+
+
+
+    <!-- 自定义js -->
+    <script src="__COMMON__/js/content.js?v=1.0.0"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            $('.contact-box').each(function () {
+                animationHover(this, 'pulse');
+            });
+        });
+		//单击进入页面
+		$('.user').click(function(){
+			var id= $(this).attr('id');
+			location.href = "__CONTROLLER__/index/userid/"+id;
+		})
+    </script>
+
+    
+    
+
+</body>
+
+</html>

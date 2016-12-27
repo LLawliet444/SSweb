@@ -1,0 +1,11 @@
+	<a href="" class="pull-left">
+		<img alt="image" src="{$Think.session.uinfo.user_header}">
+	</a>
+	<div class="media-body">
+		<a href="#">
+			{$Think.session.uinfo.user_nickname}
+		</a> {$data.comm_content}
+		<br/>
+		<a href="#" class="small"><i class="fa fa-thumbs-up"></i> {$data.comm_up}</a> -
+		<small class="text-muted">{$data.comm_ctime|date="Y\年m\月d\日",###}</small>
+	</div>
