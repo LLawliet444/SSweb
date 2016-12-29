@@ -277,6 +277,8 @@ class UserController extends CommonController{
         $user1 = D('User1');
         $id = $_SESSION['uinfo']['user_id'];
         $data = $user1->create('',2);
+//        dump($data);
+//        die();
         if(!$data){
             echo $user1->getError();
             die();
@@ -286,6 +288,45 @@ class UserController extends CommonController{
             $this->success('修改成功','/User/index/userid/'.$id.'.html',3);
         }else{
             $this->error('修改失败',U('userinfo'),3);
+        }
+    }
+    //上传头像
+    function upImage(){
+        if(!isset($_SESSION)){
+            session_start();
+        }
+//        echo 'OK';
+//        die();
+        $config = array(
+            'rootPath' => './Upload/',
+            'maxSize' => 5242880,
+            'exts' => array('jpg','png','gif'),
+        );
+        //实例化文件上传类
+        $upload = new \Think\Upload($config);
+        //调用uoload方法进行文件上传
+        $info = $upload->upload();
+//        $fp = fopen('f:/php/a.txt','w');
+//        fwrite($fp,serialize($info));
+        if(!$info){
+            echo $upload->getError();
+        }else{
+//            dump($info);
+            //制作缩略图
+            $img = new \Think\Image();
+            //打开要处理的图片
+            $path = './Upload/'.$info['Filedata']['savepath'].$info['Filedata']['savename'];
+            $img->open($path);
+            //进行缩略操作
+            $img->thumb(145,120);
+            //保存缩略图
+            $smallpath = './Upload/'.$info['Filedata']['savepath']."thumb_".$info['Filedata']['savename'];
+            $img->save($smallpath);
+            $result = array(
+                'pic' => $path,
+                'smallpic' => $smallpath,
+            );
+            echo json_encode($result);
         }
     }
 }

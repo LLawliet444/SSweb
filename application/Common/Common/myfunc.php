@@ -25,3 +25,11 @@ function getTimeStamp(){
 function getUserId(){
     return $_SESSION['uinfo']['user_id'];
 }
+//获取地址
+function getAddr(){
+    return $_POST['province'].$_POST['city'];
+}
+//去除存储地址前的点
+function rmDot($filename){
+    return trim($filename,'.');
+}

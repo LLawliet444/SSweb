@@ -1,0 +1,3176 @@
+[ 2016-12-29T20:21:26+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.019722s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019939s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026603s ]
+
+[ 2016-12-29T20:21:27+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000757s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000878s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.341182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.341343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001649s ]
+
+[ 2016-12-29T20:21:28+08:00 ] 127.0.0.1 /Public/Common/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001964s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T20:21:34+08:00 ] 127.0.0.1 /Social/contacts.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+ERR: 无法加载控制器:Social
+
+[ 2016-12-29T20:21:35+08:00 ] 127.0.0.1 /User/myIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+
+[ 2016-12-29T20:21:35+08:00 ] 127.0.0.1 /User/index/userid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.121745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.121847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001362s ]
+
+[ 2016-12-29T20:21:35+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T20:21:35+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T20:21:44+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.2102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041811s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002984s ]
+
+[ 2016-12-29T20:23:06+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001234s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2016-12-29T20:23:07+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2016-12-29T20:23:07+08:00 ] 127.0.0.1 /Public/Common/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T20:23:11+08:00 ] 127.0.0.1 /User/smsgIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+SQL: select s.*,u1.user_nickname,u1.user_header,u1.user_id from ss_smsg as s left join ss_user1 as u1 on s.from_id=u1.user_id where u1.user_id in (2,1) order by s.smsg_ctime desc [ RunTime:0.2047s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=15 and up_type=0 )  [ RunTime:0.0757s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=14 and up_type=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=12 and up_type=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=11 and up_type=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=4 and up_type=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=3 and up_type=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=2 and up_type=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=1 and up_type=0 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=15 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0797s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='2' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=13 and up_type=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=14 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=12 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=11 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=4 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=3 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=2 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=12 and up_type=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=1 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=1 and up_type=1 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=6 and up_type=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=7 and up_type=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=8 and up_type=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=2 and msg_id=9 and up_type=1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000629s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001558s ]
+
+[ 2016-12-29T20:23:12+08:00 ] 127.0.0.1 /User/myIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+
+[ 2016-12-29T20:23:12+08:00 ] 127.0.0.1 /User/index/userid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002842s ]
+
+[ 2016-12-29T20:23:12+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T20:23:14+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-12-29T20:23:32+08:00 ] 127.0.0.1 /User/index/userid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2016-12-29T20:23:32+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004313s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T20:23:40+08:00 ] 127.0.0.1 /User/index/userid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000665s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-12-29T20:23:40+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T20:23:42+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2016-12-29T20:35:43+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-12-29T20:38:13+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 78 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001443s ]
+
+[ 2016-12-29T20:38:31+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 78 行.
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 82 行.
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 86 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2016-12-29T20:38:49+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 78 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 82 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 86 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2016-12-29T20:45:45+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 78 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 82 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 86 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 146 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-12-29T20:50:28+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 82 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 86 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 90 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 156 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 158 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2016-12-29T20:50:40+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T20:51:13+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000268s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 90 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 94 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 98 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 164 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 166 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2016-12-29T20:51:13+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T20:51:13+08:00 ] 127.0.0.1 /Home/User/city.php?0.3211866841237285
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+ERR: 非法操作:city.php
+
+[ 2016-12-29T20:51:45+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 90 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 94 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 98 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 164 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 166 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2016-12-29T20:51:46+08:00 ] 127.0.0.1 /Home/User/city.php?0.624295531966107
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+ERR: 非法操作:city.php
+
+[ 2016-12-29T20:51:46+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T20:55:12+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004491s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 90 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 94 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 98 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 164 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 166 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001462s ]
+
+[ 2016-12-29T20:55:12+08:00 ] 127.0.0.1 /Home/User/City/province?0.5497196200272665
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+ERR: 非法操作:City
+
+[ 2016-12-29T20:55:13+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:01:28+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000272s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 86 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 90 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 94 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 160 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 162 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001784s ]
+
+[ 2016-12-29T21:01:28+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:02:53+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005758s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 86 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 90 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 94 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 160 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 162 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 164 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001545s ]
+
+[ 2016-12-29T21:02:53+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:03:39+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 161 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 163 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2016-12-29T21:03:39+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:03:39+08:00 ] 127.0.0.1 /City/province?0.19248860586919259
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+
+[ 2016-12-29T21:04:31+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 161 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 163 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2016-12-29T21:04:31+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:04:31+08:00 ] 127.0.0.1 /City/province?0.9067586818237692
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+NOTIC: [2] DOMDocument::load() [<a href='domdocument.load'>domdocument.load</a>]: I/O warning : failed to load external entity &quot;file:///E:/Project/city.xml&quot; E:\Project\application\Home\Controller\CityController.class.php 第 16 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-12-29T21:07:20+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 161 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 163 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002128s ]
+
+[ 2016-12-29T21:07:20+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:07:20+08:00 ] 127.0.0.1 /City/province?0.5735448073704794
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+NOTIC: [2] DOMDocument::load() [<a href='domdocument.load'>domdocument.load</a>]: I/O warning : failed to load external entity &quot;file:///E:/Project/__COMMON__/xml/city.xml&quot; E:\Project\application\Home\Controller\CityController.class.php 第 16 行.
+
+[ 2016-12-29T21:07:52+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 161 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 163 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2016-12-29T21:07:52+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:07:53+08:00 ] 127.0.0.1 /City/province?0.6471803209342895
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+
+[ 2016-12-29T21:08:04+08:00 ] 127.0.0.1 /Home/User/getcity.php?province=%E5%B9%BF%E4%B8%9C&0.6907009454520672
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+ERR: 非法操作:getcity.php
+
+[ 2016-12-29T21:11:55+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 161 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 163 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2016-12-29T21:11:55+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:11:55+08:00 ] 127.0.0.1 /City/province?0.9997875565386052
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2016-12-29T21:14:28+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001972s ]
+
+[ 2016-12-29T21:14:28+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:14:28+08:00 ] 127.0.0.1 /City/province?0.2662329050713974
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-12-29T21:14:49+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2016-12-29T21:14:49+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:14:49+08:00 ] 127.0.0.1 /City/province?0.66282645701272
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2016-12-29T21:14:51+08:00 ] 127.0.0.1 /Home/User/getcity.php?province=%E6%B5%99%E6%B1%9F&0.4819861163763872
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+ERR: 非法操作:getcity.php
+
+[ 2016-12-29T21:18:00+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001856s ]
+
+[ 2016-12-29T21:18:00+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:18:00+08:00 ] 127.0.0.1 /City/province?0.33690205238838944
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-12-29T21:18:01+08:00 ] 127.0.0.1 /City/city?0.3484493959164381&province=%E5%86%85%E8%92%99%E5%8F%A4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2016-12-29T21:20:54+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002693s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2016-12-29T21:20:54+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:20:54+08:00 ] 127.0.0.1 /City/province?0.6159322135795791
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001870s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010160s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010351s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001256s ]
+
+[ 2016-12-29T21:20:56+08:00 ] 127.0.0.1 /City/city?0.0210104997771281&province=%E8%BE%BD%E5%AE%81
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-12-29T21:21:05+08:00 ] 127.0.0.1 /City/city?0.1298215032805723&province=%E5%AE%89%E5%BE%BD
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2016-12-29T21:21:45+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000379s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001664s ]
+
+[ 2016-12-29T21:21:46+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:21:46+08:00 ] 127.0.0.1 /City/province?0.5020615224705989
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2016-12-29T21:21:47+08:00 ] 127.0.0.1 /City/city?0.1859546354866919&province=%E5%AE%89%E5%BE%BD
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-12-29T21:22:33+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 148 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 150 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2016-12-29T21:22:33+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001867s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:22:33+08:00 ] 127.0.0.1 /City/province?0.48833572751219534
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002298s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2016-12-29T21:22:34+08:00 ] 127.0.0.1 /City/city?0.3068151303314548&province=%E7%A6%8F%E5%BB%BA
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-12-29T21:22:39+08:00 ] 127.0.0.1 /City/city?0.9968278625531191&province=%E6%B2%B3%E5%8C%97
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2016-12-29T21:22:40+08:00 ] 127.0.0.1 /City/city?0.4452870175524368&province=%E6%B5%99%E6%B1%9F
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-12-29T21:22:42+08:00 ] 127.0.0.1 /City/city?0.6026967564487546&province=%E5%A4%A9%E6%B4%A5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-12-29T21:23:58+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 147 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2016-12-29T21:23:58+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:23:58+08:00 ] 127.0.0.1 /City/province?0.917657759055944
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004175s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2016-12-29T21:23:59+08:00 ] 127.0.0.1 /City/city?0.6689447865581155&province=%E6%B9%96%E5%8C%97
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-12-29T21:26:00+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002496s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 147 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001779s ]
+
+[ 2016-12-29T21:26:00+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002466s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:26:00+08:00 ] 127.0.0.1 /City/province?0.33307887142035186
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-12-29T21:26:02+08:00 ] 127.0.0.1 /City/city?0.13614067877257674&province=%E7%A6%8F%E5%BB%BA
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-12-29T21:26:05+08:00 ] 127.0.0.1 /City/city?0.15844039548102073&province=%E5%AE%89%E5%BE%BD
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-12-29T21:26:10+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 147 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001525s ]
+
+[ 2016-12-29T21:26:10+08:00 ] 127.0.0.1 /City/province?0.24204647014068903
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001424s ]
+
+[ 2016-12-29T21:26:45+08:00 ] 127.0.0.1 /City/city?0.8395732754435701&province=%E5%86%85%E8%92%99%E5%8F%A4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-12-29T21:26:53+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:28:36+08:00 ] 127.0.0.1 /City/city?0.6435979659277415&province=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8] Trying to get property of non-object E:\Project\application\Home\Controller\CityController.class.php 第 32 行.
+NOTIC: [8] Trying to get property of non-object E:\Project\application\Home\Controller\CityController.class.php 第 34 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-12-29T21:28:37+08:00 ] 127.0.0.1 /City/city?0.5001818307537298&province=%E6%B2%B3%E5%8C%97
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-12-29T21:28:38+08:00 ] 127.0.0.1 /City/city?0.9128105566153566&province=%E6%B5%99%E6%B1%9F
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007653s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2016-12-29T21:29:00+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:29:21+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:33:00+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: tel E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 147 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-12-29T21:33:00+08:00 ] 127.0.0.1 /City/province?0.45432479729333974
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2016-12-29T21:33:32+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined variable: Think E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Use of undefined constant session - assumed 'session' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Use of undefined constant uinfo - assumed 'uinfo' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Use of undefined constant tel - assumed 'tel' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 147 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2016-12-29T21:33:32+08:00 ] 127.0.0.1 /City/province?0.3796769995769016
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002705s ]
+
+[ 2016-12-29T21:34:27+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Use of undefined constant session - assumed 'session' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Undefined variable: Think E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Use of undefined constant uinfo - assumed 'uinfo' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Use of undefined constant tel - assumed 'tel' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 147 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2016-12-29T21:34:27+08:00 ] 127.0.0.1 /City/province?0.23611825444162227
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001852s ]
+
+[ 2016-12-29T21:35:00+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 147 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002873s ]
+
+[ 2016-12-29T21:35:00+08:00 ] 127.0.0.1 /City/province?0.7606611429292758
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001862s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-12-29T21:35:10+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 147 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2016-12-29T21:35:10+08:00 ] 127.0.0.1 /City/province?0.5174298177070649
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004648s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-12-29T21:35:20+08:00 ] 127.0.0.1 /Login/logOut.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-12-29T21:35:23+08:00 ] 127.0.0.1 /Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-12-29T21:35:23+08:00 ] 127.0.0.1 /Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-12-29T21:35:29+08:00 ] 127.0.0.1 /Login/checkLogUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2016-12-29T21:35:33+08:00 ] 127.0.0.1 /Login/loginHandle.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_name='sadytest' or user_email='sadytest' or user_tel='sadytest' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002087s ]
+
+[ 2016-12-29T21:35:34+08:00 ] 127.0.0.1 /Main/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001460s ]
+
+[ 2016-12-29T21:35:34+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000888s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2016-12-29T21:35:34+08:00 ] 127.0.0.1 /Public/Common/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:35:37+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 145 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 147 行.
+NOTIC: [8] Undefined index: telcheck E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001600s ]
+
+[ 2016-12-29T21:35:37+08:00 ] 127.0.0.1 /City/province?0.2887634447271341
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-12-29T21:36:18+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 87 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 91 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 95 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2016-12-29T21:36:19+08:00 ] 127.0.0.1 /City/province?0.12078105956498542
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001207s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-12-29T21:41:53+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 88 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 92 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002996s ]
+
+[ 2016-12-29T21:41:53+08:00 ] 127.0.0.1 /City/province?0.0729188849662854
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002419s ]
+
+[ 2016-12-29T21:43:07+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 88 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 92 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001830s ]
+
+[ 2016-12-29T21:43:07+08:00 ] 127.0.0.1 /City/province?0.5822336124392093
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2016-12-29T21:43:48+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:43:52+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 88 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 92 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2016-12-29T21:43:52+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001549s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:43:52+08:00 ] 127.0.0.1 /City/province?0.08011950652453703
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008230s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2016-12-29T21:44:04+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 88 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 92 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 96 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
+[ 2016-12-29T21:44:04+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:44:04+08:00 ] 127.0.0.1 /City/province?0.038387767580774446
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-12-29T21:45:54+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 92 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 96 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2016-12-29T21:45:54+08:00 ] 127.0.0.1 /City/province?0.05353976635704427
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001882s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2016-12-29T21:46:00+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019154569
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:46:54+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 93 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 97 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2016-12-29T21:46:54+08:00 ] 127.0.0.1 /City/province?0.45964184952903886
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001434s ]
+
+[ 2016-12-29T21:46:54+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019214836
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001479s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:46:54+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019214836
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:47:58+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 93 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 97 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001065s ]
+
+[ 2016-12-29T21:47:58+08:00 ] 127.0.0.1 /City/province?0.2697116808636577
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-12-29T21:47:58+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019278298
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:48:20+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 93 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 97 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2016-12-29T21:48:20+08:00 ] 127.0.0.1 /City/province?0.3973215261641905
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-12-29T21:48:20+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019300627
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:48:20+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019300627
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:48:56+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 93 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 97 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001762s ]
+
+[ 2016-12-29T21:48:56+08:00 ] 127.0.0.1 /City/province?0.4023262600343158
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002067s ]
+
+[ 2016-12-29T21:48:56+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019336666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005174s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:48:56+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019336666
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:49:12+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 94 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 98 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 102 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2016-12-29T21:49:12+08:00 ] 127.0.0.1 /City/province?0.1671279158045864
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2016-12-29T21:49:12+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019352254
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:49:12+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019352254
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:49:47+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 92 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 96 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2016-12-29T21:49:47+08:00 ] 127.0.0.1 /City/province?0.4915122464693933
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2016-12-29T21:49:47+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019387831
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:49:47+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019387831
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:50:18+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 92 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 96 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 100 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-12-29T21:50:18+08:00 ] 127.0.0.1 /City/province?0.2551332898635099
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001600s ]
+
+[ 2016-12-29T21:50:18+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019418819
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:50:18+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019418819
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:51:23+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined variable: vo E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 79 行.
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 100 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 104 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2016-12-29T21:51:24+08:00 ] 127.0.0.1 /City/province?0.8969429450070734
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2016-12-29T21:51:24+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019484109
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:51:24+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019484109
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002558s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:51:48+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000572s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 100 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 104 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001901s ]
+
+[ 2016-12-29T21:51:49+08:00 ] 127.0.0.1 /City/province?0.5738473241064606
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2016-12-29T21:51:49+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019508972
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:51:49+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019508972
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:52:22+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 100 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 104 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-12-29T21:52:23+08:00 ] 127.0.0.1 /City/province?0.07976365803000585
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002208s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000421s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2016-12-29T21:52:23+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019542983
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002769s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:52:23+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019542983
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003051s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:55:41+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:55:58+08:00 ] 127.0.0.1 /User/myIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+
+[ 2016-12-29T21:55:58+08:00 ] 127.0.0.1 /User/index/userid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-12-29T21:55:58+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001700s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:55:58+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:56:01+08:00 ] 127.0.0.1 /Home/User/friend/id/2/type/attention
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SELECT `user_attention` FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `user_id`,`user_nickname`,`user_addr`,`user_email`,`user_tel`,`user_header` FROM `ss_user1` WHERE ( user_id in (2,1) )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000176s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Undefined index: intro E:\Project\application\Runtime\Cache\Home\a543c1584573c94b287a2edc6dacb25c.php 第 41 行.
+NOTIC: [8] Undefined index: intro E:\Project\application\Runtime\Cache\Home\a543c1584573c94b287a2edc6dacb25c.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001630s ]
+
+[ 2016-12-29T21:57:31+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 98 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 102 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001303s ]
+
+[ 2016-12-29T21:57:31+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:57:31+08:00 ] 127.0.0.1 /City/province?0.5404149578669672
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001353s ]
+
+[ 2016-12-29T21:57:53+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 98 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 102 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 106 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2016-12-29T21:57:54+08:00 ] 127.0.0.1 /City/province?0.4339565932265863
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2016-12-29T21:57:54+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019874052
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:57:54+08:00 ] 127.0.0.1 /Public/Common/uploadify/uploadify.swf?preventswfcaching=1483019874052
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001537s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T21:58:01+08:00 ] 127.0.0.1 /Public/Common/css/bootstrap.min.css.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T23:34:08+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.035165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.035306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.209183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.209282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011692s ]
+
+[ 2016-12-29T23:34:09+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000512s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2016-12-29T23:34:10+08:00 ] 127.0.0.1 /Public/Common/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T23:34:17+08:00 ] 127.0.0.1 /User/index/userid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.2307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2016-12-29T23:34:19+08:00 ] 127.0.0.1 /User/index/userid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+SQL: SELECT * FROM `ss_user1` WHERE ( user_id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2016-12-29T23:34:19+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T23:34:19+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T23:34:23+08:00 ] 127.0.0.1 /User/index/userid/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2016-12-29T23:34:23+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+ERR: 无法加载控制器:Public
+
+[ 2016-12-29T23:34:26+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 99 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 103 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001752s ]
+
+[ 2016-12-29T23:34:28+08:00 ] 127.0.0.1 /City/province?0.3280156517764332
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-12-29T23:34:39+08:00 ] 127.0.0.1 /Home/User/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ss_user1` WHERE ( user_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ss_user1` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-29T23:35:01+08:00 ] 127.0.0.1 /User/upImage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\Project\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-12-29T23:35:23+08:00 ] 127.0.0.1 /City/city?0.4112513142093175&province=%E5%8C%97%E4%BA%AC
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008125s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2016-12-29T23:36:56+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 99 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 103 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2016-12-29T23:36:56+08:00 ] 127.0.0.1 /City/province?0.025899929858206328
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2016-12-29T23:36:58+08:00 ] 127.0.0.1 /Home/User/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ss_user1` WHERE ( user_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ss_user1` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-29T23:37:00+08:00 ] 127.0.0.1 /User/upImage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\Project\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2016-12-29T23:42:24+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+
+[ 2016-12-29T23:42:39+08:00 ] 127.0.0.1 /City/province?0.6709630527669239
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2016-12-29T23:42:40+08:00 ] 127.0.0.1 /Home/User/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002941s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ss_user1` WHERE ( user_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ss_user1` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-29T23:42:41+08:00 ] 127.0.0.1 /City/city?0.3137940685039251&province=%E5%86%85%E8%92%99%E5%8F%A4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-12-29T23:42:43+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+
+[ 2016-12-29T23:42:49+08:00 ] 127.0.0.1 /City/province?0.41137057595098114
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2016-12-29T23:42:50+08:00 ] 127.0.0.1 /Home/User/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003839s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ss_user1` WHERE ( user_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ss_user1` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-29T23:43:25+08:00 ] 127.0.0.1 /Home/User/userinfo
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined index: user_smallheader E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 78 行.
+NOTIC: [8] Use of undefined constant 男 - assumed '男' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 99 行.
+NOTIC: [8] Use of undefined constant 女 - assumed '女' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 103 行.
+NOTIC: [8] Use of undefined constant 未知 - assumed '未知' E:\Project\application\Runtime\Cache\Home\f7029eb57c418268d28943b6c7814548.php 第 107 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001746s ]
+
+[ 2016-12-29T23:43:25+08:00 ] 127.0.0.1 /City/province?0.646689974878518
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001226s ]
+
+[ 2016-12-29T23:43:26+08:00 ] 127.0.0.1 /Home/User/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ss_user1` WHERE ( user_id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `ss_user1` WHERE ( user_id= ) LIMIT 1  
+
+[ 2016-12-29T23:43:33+08:00 ] 127.0.0.1 /User/upImage.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\Project\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2016-12-29T23:43:37+08:00 ] 127.0.0.1 /City/city?0.693055477581697&province=%E5%B1%B1%E8%A5%BF
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2016-12-29T23:43:43+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+
+[ 2016-12-29T23:45:57+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: auto E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1132 行.
+
+[ 2016-12-29T23:48:36+08:00 ] 127.0.0.1 /User/userModify.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+NOTIC: [8] Undefined index: validate E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1189 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkSex' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: user_birthday E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1280 行.
+NOTIC: [2] call_user_func_array() expects parameter 1 to be a valid callback, function 'checkBirthday' not found or invalid function name E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1283 行.
+NOTIC: [8] Undefined index: auto E:\Project\ThinkPHP\Library\Think\Model.class.php 第 1132 行.
+SQL: UPDATE `ss_user1` SET `user_nickname`='张欣欣',`user_sex`='女',`user_intro`='这是一个测试账号',`user_tel`='13520736670',`user_birth`='2016-12-27',`user_header`='/Upload/2016-12-29/58652f251748d.jpg',`user_smallheader`='/Upload/2016-12-29/thumb_58652f251748d.jpg',`user_addr`='山西运城' WHERE ( user_id=2 ) [ RunTime:0.0314s ]
+SQL: SELECT * FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2016-12-29T23:48:40+08:00 ] 127.0.0.1 /User/index/userid/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2016-12-29T23:48:40+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+ERR: 无法加载控制器:Public
+

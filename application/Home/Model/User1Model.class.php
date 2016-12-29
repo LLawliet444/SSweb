@@ -14,7 +14,7 @@ class User1Model extends RelationModel{
     protected $pk = 'user_id';
     //主要字段
     protected $fields = array(
-        'user_id','user_name','user_nickname','user_pwd','user_addr','user_sex','user_birth','user_intro','user_email','user_ctime','user_header','user_attention','user_tel','user_check','user_cnum','user_fnum','user_fans','user_telcheck',
+        'user_id','user_name','user_nickname','user_pwd','user_addr','user_sex','user_birth','user_intro','user_email','user_ctime','user_header','user_attention','user_tel','user_check','user_cnum','user_fnum','user_fans','user_telcheck','user_smallheader'
     );
     //关联关系
 //    protected $_link = array(
@@ -32,10 +32,12 @@ class User1Model extends RelationModel{
         'email'=>'user_email',
         'nickname'=>'user_nickname',
         'sex'=>'user_sex',
-        'addr'=>'user_addr',
+//        'addr'=>'user_addr',
         'intro'=>'user_intro',
         'tel'=>'user_tel',
         'birth'=>'user_birth',
+        'pic'=>'user_header',
+        'smallpic'=>'user_smallheader',
 
     );
     //自动验证
@@ -59,6 +61,9 @@ class User1Model extends RelationModel{
         array('user_sex','男',1,'string'),
         array('user_intro','这个人很懒，什么都没有留下',1,'string'),
         array('user_header','./Upload/Header/pic5.jpg',1,'string'),
+        array('user_addr','getAddr',3,'function'),
+        array('user_header','rmDot',3,'function'),
+        array('user_smallheader','rmDot',3,'function'),
     );
     //登录验证
     function checkLogin($name,$pwd){
