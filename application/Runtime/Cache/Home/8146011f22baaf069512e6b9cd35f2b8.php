@@ -17,11 +17,11 @@
     <link href="/Public/Common/css/animate.css" rel="stylesheet">
     <link href="/Public/Common/css/style.css?v=4.1.0" rel="stylesheet">
 	<!--插件-->
-	<!-- <link href="/Public/Common/js/plugins/Ueditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+	 <link href="/Public/Common/js/plugins/Ueditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="/Public/Common/js/plugins/Ueditor/third-party/jquery.min.js"></script>
 	<script type="text/javascript" charset="utf-8" src="/Public/Common/js/plugins/Ueditor/umeditor.config.js"></script>
 	<script type="text/javascript" charset="utf-8" src="/Public/Common/js/plugins/Ueditor/umeditor.min.js"></script>
-	<script type="text/javascript" src="/Public/Common/js/plugins/Ueditor/lang/zh-cn/zh-cn.js"></script> -->
+	<script type="text/javascript" src="/Public/Common/js/plugins/Ueditor/lang/zh-cn/zh-cn.js"></script>
 </head>
 
 <body class="gray-bg">
@@ -37,7 +37,8 @@
                                     </a>
                                     <div class="media-body">
                                         <form action="smsgAddHandle" id="smsg" name="smsg" method="post">
-                                            <textarea class="form-control" placeholder="发布动态" name="content"></textarea>
+                                        	<textarea class="form-control" name="content" id="content" style="height:150px"></textarea>
+                                            <!--<textarea class="form-control" placeholder="发布动态" name="content"></textarea>-->
                                             <input type="submit" value="发布" style="float:left;">
                                             <input type="hidden" name="user" value="<?php echo ($_SESSION['uinfo']['user_id']); ?>">
                                         </form>
@@ -111,7 +112,6 @@
 
                                     </div>
                             </div>
-
 						</div>
 
 					</div><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -120,7 +120,7 @@
     </div>
 
     <!-- 全局js -->
-    <script src="/Public/Common/js/jquery.min.js?v=2.1.4"></script>
+    <!--<script src="/Public/Common/js/jquery.min.js?v=2.1.4"></script>-->
     <script src="/Public/Common/js/bootstrap.min.js?v=3.3.6"></script>
 
 
@@ -128,6 +128,24 @@
     <!-- 自定义js -->
     <script src="/Public/Common/js/content.js?v=1.0.0"></script>
 	<script>
+		$(document).ready(function(){
+			//实例化富文本编辑框对象
+			var um = UM.getEditor('content', {
+				// 指定ueditor根目录
+				EDITOR_HOME_URL: "/Public/Common/js/plugins/Ueditor",
+				// 指定后台（php程序）文件上传的方法
+				imageUrl: "<?php echo U('upSmsgImage');?>",
+				// 指定文件上传目录
+				imagePath :  "/Upload/images/",
+				toolbar:[
+					'source',
+					'| justifyleft justifycenter justifyright justifyjustify |',
+					'emotion image video  | map',
+				],
+				initialContent:'今天发生了什么，来吐槽吧！',
+				autoClearinitialContent:true,
+			});
+		});
 		//发布动态
 		$('#smsg').submit(function(){
 			var form = $(this);
@@ -144,6 +162,8 @@
 					if(data == 'ERROR' || data =='内容不能为空' ){
 						alert(data);
 					}else{
+//						alert(data);
+//						return;
 						var div = $('<div>');
 						div.html(data);
 						div.attr('class','social-feed-box');

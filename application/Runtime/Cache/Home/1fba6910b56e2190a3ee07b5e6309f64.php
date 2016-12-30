@@ -109,90 +109,156 @@
 
                         <div>
                             <div class="feed-activity-list">
+								<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if($vo["sys_type"] == 1): ?><div class="feed-element">
+											<a href="profile.html#" class="pull-left">
+												<img alt="image" class="img-circle" src="<?php echo ($uinfo["user_header"]); ?>">
+											</a>
+											<div class="media-body ">
+												<small class="pull-right text-navy"><?php echo (date("H:m:s",$vo["sys_ctime"])); ?></small>
+												<strong><?php echo ($uinfo["user_nickname"]); ?></strong> 关注了 <a href="<?php echo U('User/index',array('userid'=>$vo['state_id']));?>"><img alt="image" class="img-circle" src="<?php echo ($vo["ext"]["user_header"]); ?>"><strong><?php echo ($vo["ext"]["user_nickname"]); ?></strong></a>
+												<br>
+												<small class="text-muted"><?php echo (date("Y-m-d",$vo["sys_ctime"])); ?></small>
+												<div class="actions">
+													<a class="btn btn-xs btn-white"><i class="fa fa-thumbs-up"></i> 赞 </a>
+													<a class="btn btn-xs btn-danger"><i class="fa fa-heart"></i> 收藏</a>
+												</div>
+											</div>
+										</div><?php endif; ?>
+									<?php if($vo["sys_type"] == 2): ?><div class="feed-element">
+										<div class="social-feed-box">
+											<small class="pull-right text-navy"><?php echo (date("H:m:s",$vo["sys_ctime"])); ?></small>
+											<div class="social-avatar">
+												<a href="" class="pull-left">
+													<img alt="image" src="<?php echo ($uinfo["user_header"]); ?>">
+												</a>
+												<div class="media-body">
+													<a href="<?php echo U('User/index',array('userid'=>$uinfo['user_id']));?>">
+														<?php echo ($uinfo["user_nickname"]); ?>
+													</a>
+													<small class="text-muted"><?php echo (date("Y年m月d日  H:i:s",$vo["ext"]["smsg_ctime"])); ?></small>
+												</div>
+											</div>
+											<div class="social-body">
+												<p>
+													<?php echo ($vo["ext"]["smsg_content"]); ?>
+												</p>
 
-                                <div class="feed-element">
-                                    <a href="profile.html#" class="pull-left">
-                                        <img alt="image" class="img-circle" src="/Public/Common/img/a1.jpg">
-                                    </a>
-                                    <div class="media-body ">
-                                        <small class="pull-right text-navy">1天前</small>
-                                        <strong>奔波儿灞</strong> 关注了 <strong>灞波儿奔</strong>.
-                                        <br>
-                                        <small class="text-muted">54分钟前 来自 皮皮时光机</small>
-                                        <div class="actions">
-                                            <a class="btn btn-xs btn-white"><i class="fa fa-thumbs-up"></i> 赞 </a>
-                                            <a class="btn btn-xs btn-danger"><i class="fa fa-heart"></i> 收藏</a>
-                                        </div>
-                                    </div>
-                                </div>
+												<div class="btn-group">
+													<?php if($vo['ext']['flag'] == 0): ?><button value="<?php echo ($vo["ext"]["smsg_id"]); ?>" class="btn btn-default btn-xs up"><i class="fa fa-thumbs-up"></i><span id="up-<?php echo ($vo["ext"]["smsg_id"]); ?>"> <?php echo ($vo["ext"]["smsg_up"]); ?></span></button>
+														<?php else: ?>
+														<button value="<?php echo ($vo["ext"]["smsg_id"]); ?>" class="btn btn-success btn-xs up on"><i class="fa fa-thumbs-up"></i><span id="up-<?php echo ($vo["ext"]["smsg_id"]); ?>"> <?php echo ($vo["ext"]["smsg_up"]); ?></span></button><?php endif; ?>
+													<button class="btn btn-white btn-xs commbox"><i class="fa fa-comments"></i> 评论</button>
+													<button class="btn btn-white btn-xs"><i class="fa fa-share"></i> 分享</button>
+												</div>
+											</div>
+											<div class="social-footer">
+												<div class="social-com">
+													<?php if(is_array($vo["ext"]["smsg_comment"])): $i = 0; $__LIST__ = $vo["ext"]["smsg_comment"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$comm): $mod = ($i % 2 );++$i;?><div class="social-comment">
+															<a href="" class="pull-left">
+																<img alt="image" src="<?php echo ($comm["user1"]["user_header"]); ?>">
+															</a>
+															<div class="media-body">
+																<a href="/User/index/userid/<?php echo ($comm["user1"]["user_id"]); ?>">
+																	<?php echo ($comm["user1"]["user_nickname"]); ?>
+																</a> <?php echo ($comm["comm_content"]); ?>
+																<br/>
+																<?php if($comm["flag"] == 0): ?><a class="small" id="commup"><i class="fa fa-thumbs-up"></i> <span class="upnum" id="<?php echo ($comm["comm_id"]); ?>"><?php echo ($comm["comm_up"]); ?></span></a>
+																	<?php else: ?>
+																	<a class="small on" id="commup"><i class="fa fa-thumbs-up"></i> <span class="upnum" id="<?php echo ($comm["comm_id"]); ?>"><?php echo ($comm["comm_up"]); ?></span></a><?php endif; ?>
 
-                                <div class="feed-element">
-                                    <a href="profile.html#" class="pull-left">
-                                        <img alt="image" class="img-circle" src="/Public/Common/img/profile.jpg">
-                                    </a>
-                                    <div class="media-body ">
-                                        <small class="pull-right">5分钟前</small>
-                                        <strong>作家崔成浩</strong> 发布了一篇文章
-                                        <br>
-                                        <small class="text-muted">今天 10:20 来自 iPhone 6 Plus</small>
+																-<small class="text-muted"><?php echo (date('Y年m月d日',$comm["comm_ctime"])); ?></small>
+															</div>
+														</div><?php endforeach; endif; else: echo "" ;endif; ?>
+												</div>
+												<div class="social-comment setcomment" style="display:none;">
+													<a href="" class="pull-left">
+														<img alt="image" src="<?php echo ($_SESSION['uinfo']['user_header']); ?>">
+													</a>
+													<div class="media-body">
+														<form action="<?php echo U('Comment/addComment');?>" class="comment" name="form-comment-{vo.smsg_id}" method="post">
+															<textarea class="form-control" placeholder="填写评论" name="content"></textarea>
+															<input type="submit" value="评论">
+															<input type="hidden" value="<?php echo ($vo["smsg_id"]); ?>" name="title">
+														</form>
 
-                                    </div>
-                                </div>
+													</div>
+												</div>
+											</div>
 
-                                <div class="feed-element">
-                                    <a href="profile.html#" class="pull-left">
-                                        <img alt="image" class="img-circle" src="/Public/Common/img/a2.jpg">
-                                    </a>
-                                    <div class="media-body ">
-                                        <small class="pull-right">2小时前</small>
-                                        <strong>作家崔成浩</strong> 抽奖中了20万
-                                        <br>
-                                        <small class="text-muted">今天 09:27 来自 Koryolink iPhone</small>
-                                        <div class="well">
-                                            抽奖，人民币2000元，从转发这个微博的粉丝中抽取一人。11月16日平台开奖。随手一转，万一中了呢？
-                                        </div>
-                                        <div class="pull-right">
-                                            <a class="btn btn-xs btn-white"><i class="fa fa-thumbs-up"></i> 赞 </a>
-                                            <a class="btn btn-xs btn-white"><i class="fa fa-heart"></i> 收藏</a>
-                                            <a class="btn btn-xs btn-primary"><i class="fa fa-pencil"></i> 评论</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="feed-element">
-                                    <a href="profile.html#" class="pull-left">
-                                        <img alt="image" class="img-circle" src="/Public/Common/img/a3.jpg">
-                                    </a>
-                                    <div class="media-body ">
-                                        <small class="pull-right">2天前</small>
-                                        <strong>天猫</strong> 上传了2张图片
-                                        <br>
-                                        <small class="text-muted">11月7日 11:56 来自 微博 weibo.com</small>
-                                        <div class="photos">
-                                            <a target="_blank" href="http://24.media.tumblr.com/20a9c501846f50c1271210639987000f/tumblr_n4vje69pJm1st5lhmo1_1280.jpg">
-                                                <img alt="image" class="feed-photo" src="img/p1.jpg">
-                                            </a>
-                                            <a target="_blank" href="http://37.media.tumblr.com/9afe602b3e624aff6681b0b51f5a062b/tumblr_n4ef69szs71st5lhmo1_1280.jpg">
-                                                <img alt="image" class="feed-photo" src="img/p3.jpg">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="feed-element">
-                                    <a href="profile.html#" class="pull-left">
-                                        <img alt="image" class="img-circle" src="/Public/Common/img/a4.jpg">
-                                    </a>
-                                    <div class="media-body ">
-                                        <small class="pull-right text-navy">5小时前</small>
-                                        <strong>在水一方Y</strong> 关注了 <strong>那二十年的单身</strong>.
-                                        <br>
-                                        <small class="text-muted">今天 10:39 来自 iPhone客户端</small>
-                                        <div class="actions">
-                                            <a class="btn btn-xs btn-white"><i class="fa fa-thumbs-up"></i> 赞 </a>
-                                            <a class="btn btn-xs btn-white"><i class="fa fa-heart"></i> 收藏</a>
-                                        </div>
-                                    </div>
-                                </div>
+										</div>
 
+									</div><?php endif; ?>
+									<?php if($vo["sys_type"] == 4): ?><div class="feed-element">
+											<a href="profile.html#" class="pull-left">
+												<img alt="image" class="img-circle" src="<?php echo ($uinfo["user_header"]); ?>">
+											</a>
+											<div class="media-body ">
+												<small class="pull-right text-navy"><?php echo (date("H:m:s",$vo["sys_ctime"])); ?></small>
+												<strong><?php echo ($uinfo["user_nickname"]); ?></strong> 赞了
+												<br>
+												<small class="text-muted"><?php echo (date("Y-m-d",$vo["sys_ctime"])); ?></small>
+											</div>
+										</div>
+										<div class="social-feed-box">
+											<div class="social-avatar">
+												<a href="" class="pull-left">
+													<img alt="image" src="<?php echo ($vo["ext"]["user_header"]); ?>">
+												</a>
+												<div class="media-body">
+													<a href="<?php echo U('User/index',array('userid'=>$vo['ext']['from_id']));?>">
+														<?php echo ($vo["ext"]["user_nickname"]); ?>
+													</a>
+													<small class="text-muted"><?php echo (date("Y年m月d日  H:i:s",$vo["ext"]["smsg_ctime"])); ?></small>
+												</div>
+											</div>
+											<div class="social-body">
+												<p>
+													<?php echo ($vo["ext"]["smsg_content"]); ?>
+												</p>
+
+												<div class="btn-group">
+													<?php if($vo['ext']['flag'] == 0): ?><button value="<?php echo ($vo["ext"]["smsg_id"]); ?>" class="btn btn-default btn-xs up"><i class="fa fa-thumbs-up"></i><span id="up-<?php echo ($vo["ext"]["smsg_id"]); ?>"> <?php echo ($vo["ext"]["smsg_up"]); ?></span></button>
+														<?php else: ?>
+														<button value="<?php echo ($vo["ext"]["smsg_id"]); ?>" class="btn btn-success btn-xs up on"><i class="fa fa-thumbs-up"></i><span id="up-<?php echo ($vo["ext"]["smsg_id"]); ?>"> <?php echo ($vo["ext"]["smsg_up"]); ?></span></button><?php endif; ?>
+													<button class="btn btn-white btn-xs commbox"><i class="fa fa-comments"></i> 评论</button>
+													<button class="btn btn-white btn-xs"><i class="fa fa-share"></i> 分享</button>
+												</div>
+											</div>
+											<div class="social-footer">
+												<div class="social-com">
+													<?php if(is_array($vo["ext"]["smsg_comment"])): $i = 0; $__LIST__ = $vo["ext"]["smsg_comment"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$comm): $mod = ($i % 2 );++$i;?><div class="social-comment">
+															<a href="" class="pull-left">
+																<img alt="image" src="<?php echo ($comm["user1"]["user_header"]); ?>">
+															</a>
+															<div class="media-body">
+																<a href="/User/index/userid/<?php echo ($comm["user1"]["user_id"]); ?>">
+																	<?php echo ($comm["user1"]["user_nickname"]); ?>
+																</a> <?php echo ($comm["comm_content"]); ?>
+																<br/>
+																<?php if($comm["flag"] == 0): ?><a class="small" id="commup"><i class="fa fa-thumbs-up"></i> <span class="upnum" id="<?php echo ($comm["comm_id"]); ?>"><?php echo ($comm["comm_up"]); ?></span></a>
+																	<?php else: ?>
+																	<a class="small on" id="commup"><i class="fa fa-thumbs-up"></i> <span class="upnum" id="<?php echo ($comm["comm_id"]); ?>"><?php echo ($comm["comm_up"]); ?></span></a><?php endif; ?>
+
+																-<small class="text-muted"><?php echo (date('Y年m月d日',$comm["comm_ctime"])); ?></small>
+															</div>
+														</div><?php endforeach; endif; else: echo "" ;endif; ?>
+												</div>
+												<div class="social-comment setcomment" style="display:none;">
+													<a href="" class="pull-left">
+														<img alt="image" src="<?php echo ($_SESSION['uinfo']['user_header']); ?>">
+													</a>
+													<div class="media-body">
+														<form action="<?php echo U('Comment/addComment');?>" class="comment" name="form-comment-{vo.smsg_id}" method="post">
+															<textarea class="form-control" placeholder="填写评论" name="content"></textarea>
+															<input type="submit" value="评论">
+															<input type="hidden" value="<?php echo ($vo["smsg_id"]); ?>" name="title">
+														</form>
+
+													</div>
+												</div>
+											</div>
+
+										</div><?php endif; endforeach; endif; else: echo "" ;endif; ?>
                             </div>
 
                             <button class="btn btn-primary btn-block m"><i class="fa fa-arrow-down"></i> 显示更多</button>
@@ -284,6 +350,104 @@
 
 		$('.userinfo').click(function(){
 			location.href = "/Home/User/userinfo";
+		})
+
+		//显示收起评论框
+		$('.commbox').click(function(){
+			var p = $(this).parents('.social-body');
+			var parent = p.siblings('.social-footer');
+//			alert(parent.html());
+			var commbox = parent.children('.setcomment');
+//			alert(commbox.html());
+			if($(this).hasClass('on')){
+				$(this).attr('class','btn btn-white btn-xs commbox');
+				commbox.css('display','none');
+				return;
+			}
+			$(this).attr('class','btn btn-white btn-xs commbox on');
+			commbox.css('display','block');
+		});
+		//点赞
+		$('.up').click(function(){
+			var id = $(this).val();
+			var up = $(this);
+//			alert(smsgid);
+			//判断是否赞过
+			if(up.hasClass('on')){
+				//赞过则取消赞
+				up.attr('class','btn btn-default btn-xs up');
+				var up_num = '#up-'+id;
+				var num = parseInt($(up_num).html())-1;
+//			alert(num);
+				$(up_num).html(' '+num);
+				$.post("<?php echo U('smsgUpDel');?>",'id='+id+'&type='+0,function(msg){
+//					alert(msg);
+				});
+				return;
+			}
+			//未赞过点赞
+			up.attr('class','btn btn-success btn-xs up on');
+			var up_num = '#up-'+id;
+			var num = parseInt($(up_num).html())+1;
+//			alert(num);
+			$(up_num).html(' '+num);
+			$.post("<?php echo U('smsgUp');?>",'id='+id+'&type='+0,function(msg){
+//				alert(msg);
+			});
+		});
+		//评论点赞
+		$('#commup').click(function(){
+			var commup = $(this);
+//			alert(smsgid);
+			//判断是否赞过
+			if(commup.hasClass('on')){
+				//取消点赞
+				commup.attr('class','small');
+				var up_num = commup.find('span.upnum');
+				var num = parseInt(up_num.html())-1;
+//			alert(num);
+				up_num.html(num);
+				var id = up_num.attr('id');
+				$.post("<?php echo U('smsgUpDel');?>",'id='+id+'&type='+1);
+				return;
+			}
+			//增加点赞
+			commup.attr('class','small on');
+			var up_num = commup.find('span.upnum');
+			var num = parseInt(up_num.html())+1;
+//			alert(num);
+			up_num.html(num);
+			var id = up_num.attr('id');
+			$.post("<?php echo U('smsgUp');?>",'id='+id+'&type='+1);
+		});
+		//评论
+		$('.comment').submit(function(){
+			var form = $(this);
+			$.ajax({
+				cache: true,
+				type: "POST",
+				url:'/Comment/addComment',
+				data:form.serialize(),// form
+				async: false,
+				error: function(request) {
+					alert("Connection error");
+				},
+				success: function(data) {
+					if(data == 'ERROR' || data=='评论不能为空' ){
+						alert(data);
+					}else{
+						var par1 = form.parents('.social-comment');
+						var par = par1.prev();
+						var div = $('<div>');
+						div.html(data);
+						div.attr('class','social-comment');
+						par.append(div);
+//						alert(par.attr('class'));
+//						alert(data);
+					}
+				}
+			});
+			return false;
 		})
 	</script>
 </body>

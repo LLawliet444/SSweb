@@ -38,7 +38,7 @@
 
 								<address>
 									<strong>Email:</strong><?php echo ($vo["user_email"]); ?><br>
-									<strong>sign:</strong><a href=""><?php echo ($vo["intro"]); ?></a><br>
+									<strong>sign:</strong><a href=""><?php echo ($vo["user_intro"]); ?></a><br>
 									<strong title="Phone">Tel:</strong> <?php echo ($vo["user_tel"]); ?>
 								</address>
 							</div>

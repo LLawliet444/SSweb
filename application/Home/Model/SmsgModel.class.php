@@ -27,13 +27,13 @@ class SmsgModel extends RelationModel{
     );
     //字段映射
     protected $_map = array(
-        'content'=>'smsg_content',
+//        'content'=>'smsg_content',
         'user'=>'from_id',
     );
     //自动验证
-    protected $_validate= array(
-        array('smsg_content','require','内容不能为空',1,'regex',3),
-    );
+//    protected $_validate= array(
+//        array('smsg_content','require','内容不能为空',1,'regex',3),
+//    );
 
     //自动完成
     protected $_auto = array(

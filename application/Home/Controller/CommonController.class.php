@@ -21,7 +21,7 @@ class CommonController extends Controller{
             session_start();
         }
         if(!isset($_SESSION['uinfo'])){
-            $this->error('您尚未登录，请先登录！',U('Index/login'),3);
+            $this->error('您尚未登录，请先登录！',U('Login/login'),3);
         }
     }
     //设置系统信息

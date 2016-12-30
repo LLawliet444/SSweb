@@ -9,7 +9,7 @@
 namespace Home\Model;
 use Think\Model;
 
-class UpModel extends Model{
+class UpModel extends Model\RelationModel{
     //主键
     protected $pk = 'up_id';
     //主要字段

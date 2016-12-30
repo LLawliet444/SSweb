@@ -104,7 +104,7 @@
 									</div>
 									<div class="radio radio-success radio-inline">
 
-										<input type="radio" id="mi" value="未知" name="sex" <?php if($_SESSION['uinfo']['user_sex'] == 未知): ?>checked<?php endif; ?>> <label for="mi">保密</label>
+										<input type="radio" id="mi" value="保密" name="sex" <?php if($_SESSION['uinfo']['user_sex'] == 保密): ?>checked<?php endif; ?>> <label for="mi">保密</label>
 									</div>
 								</div>
 							</div>
