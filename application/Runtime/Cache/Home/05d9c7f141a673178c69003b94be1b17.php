@@ -210,6 +210,10 @@
 		function getMsg(){
 			$id = $('.hidden').val();
 		}
+
+		function catchMsg(){
+
+		}
 	</script>
     
     
