@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6acc9fc1-fd5a-42b3-a67b-3bb80805e70c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/12044f36f4279863494ec41db8776e95.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/20914c0f075f91df3579ffbdf5180b02.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/2debb01de44cbbb3d0409dafa3a18a7f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/3e579e5313803d2899df657048b25bbf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/6ba8d7929b0fdf7ace71e07221b91ee1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/77d39825e0a388211b4d7abc6722aa83.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/80eb5f3677db5c91d4698c99c3396aed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/a543c1584573c94b287a2edc6dacb25c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/b8e9c55c6f29af9268f47336cfb36862.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/da17b1ad88a2af48f5f7b694e7f1957c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/ef518d648dbbb650b2409eacf3125860.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/f447de38e0c193f76887a54432bdcfab.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/f7029eb57c418268d28943b6c7814548.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Home/Controller/ChatController.class.php" afterPath="$PROJECT_DIR$/application/Home/Controller/ChatController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Home/View/Chat/getMsg.html" afterPath="$PROJECT_DIR$/application/Home/View/Chat/getMsg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Home/View/Chat/index.html" afterPath="$PROJECT_DIR$/application/Home/View/Chat/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Home/View/Main/index.html" afterPath="$PROJECT_DIR$/application/Home/View/Main/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/05d9c7f141a673178c69003b94be1b17.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Home/05d9c7f141a673178c69003b94be1b17.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/aa36ffb4380b2d5d4fd5f3d5c9cfff6e.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Home/aa36ffb4380b2d5d4fd5f3d5c9cfff6e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Logs/Home/17_01_05.log" afterPath="$PROJECT_DIR$/application/Runtime/Logs/Home/17_01_05.log" />
     </list>
     <ignored path="Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,13 +46,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChatController.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChatController.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/Home/Controller/ChatController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.5286956">
-              <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+            <state vertical-scroll-proportion="-22.096775">
+              <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
               <folding>
-                <element signature="e#378#763#0#PHP" expanded="false" />
+                <element signature="e#379#764#0#PHP" expanded="false" />
+                <element signature="e#2324#2875#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -39,28 +62,18 @@
       <file leaf-file-name="getMsg.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/Home/View/Chat/getMsg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.903226">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state vertical-scroll-proportion="4.16129">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/Home/View/Chat/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.8709676">
-              <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setMsg.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/Home/View/Chat/setMsg.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7096774">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state vertical-scroll-proportion="-0.22434783">
+              <caret line="184" column="13" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -69,7 +82,7 @@
       <file leaf-file-name="smsgIndex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/Home/View/User/smsgIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-116.77419">
+            <state vertical-scroll-proportion="59.612904">
               <caret line="173" column="31" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="31" />
               <folding />
             </state>
@@ -79,8 +92,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/Home/View/Main/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.935484">
-              <caret line="112" column="97" selection-start-line="112" selection-start-column="97" selection-end-line="112" selection-end-column="97" />
+            <state vertical-scroll-proportion="-9.935484">
+              <caret line="128" column="106" selection-start-line="128" selection-start-column="106" selection-end-line="128" selection-end-column="106" />
               <folding>
                 <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -159,8 +172,8 @@
         <option value="$PROJECT_DIR$/application/Home/View/Chat/setMsg.html" />
         <option value="$PROJECT_DIR$/application/Home/View/Chat/getMsg.html.php" />
         <option value="$PROJECT_DIR$/application/Home/View/Chat/getMsg.html" />
-        <option value="$PROJECT_DIR$/application/Home/View/Chat/index.html" />
         <option value="$PROJECT_DIR$/application/Home/Controller/ChatController.class.php" />
+        <option value="$PROJECT_DIR$/application/Home/View/Chat/index.html" />
       </list>
     </option>
   </component>
@@ -204,6 +217,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -639,7 +653,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -818,13 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Runtime/Cache/Home/1fba6910b56e2190a3ee07b5e6309f64.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-155.16129">
-          <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Model.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.4193548">
@@ -890,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40173912">
           <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,9 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42086956">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#80#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,7 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15652174">
           <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -964,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -972,7 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7321739">
           <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -980,7 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,7 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07652174">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,7 +990,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.870968">
           <caret line="81" column="129" selection-start-line="81" selection-start-column="129" selection-end-line="81" selection-end-column="129" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1004,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26782608">
           <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.9240924">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3495652">
           <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,28 +1046,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Home/View/Main/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.935484">
-          <caret line="112" column="97" selection-start-line="112" selection-start-column="97" selection-end-line="112" selection-end-column="97" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/Home/Controller/CommonController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26782608">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Home/View/User/smsgIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-116.77419">
-          <caret line="173" column="31" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1090,37 +1062,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Home/View/Chat/getMsg.html">
+    <entry file="file://$PROJECT_DIR$/application/Home/View/Main/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.903226">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding />
+        <state vertical-scroll-proportion="-9.935484">
+          <caret line="128" column="106" selection-start-line="128" selection-start-column="106" selection-end-line="128" selection-end-column="106" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/Home/View/Chat/setMsg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7096774">
+        <state vertical-scroll-proportion="0.03826087">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Home/View/Chat/index.html">
+    <entry file="file://$PROJECT_DIR$/application/Home/View/Chat/getMsg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.8709676">
-          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+        <state vertical-scroll-proportion="4.16129">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Home/View/User/smsgIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="59.612904">
+          <caret line="173" column="31" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/Home/Controller/ChatController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.5286956">
-          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+        <state vertical-scroll-proportion="-22.096775">
+          <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
           <folding>
-            <element signature="e#378#763#0#PHP" expanded="false" />
+            <element signature="e#379#764#0#PHP" expanded="false" />
+            <element signature="e#2324#2875#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Home/View/Chat/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.22434783">
+          <caret line="184" column="13" selection-start-line="184" selection-start-column="13" selection-end-line="184" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

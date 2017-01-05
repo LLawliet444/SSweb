@@ -221,7 +221,7 @@
     <script type="text/javascript" src="/Public/Common/js/index.js"></script>
 
     <!-- 第三方插件 -->
-    <script src="/Public/Common/js/plugins/pace/pace.min.js"></script>
+    <!--<script src="/Public/Common/js/plugins/pace/pace.min.js"></script>-->
     <script type="text/javascript">
         //添加状态
 //        $('#smsgAdd').click(function(){

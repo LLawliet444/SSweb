@@ -16,7 +16,7 @@
     <link href="/Public/Common/css/font-awesome.css?v=4.4.0" rel="stylesheet">
     <link href="/Public/Common/css/plugins/jsTree/style.min.css" rel="stylesheet">
     <link href="/Public/Common/css/animate.css" rel="stylesheet">
-    <link href="/Public/Common/css/style.css?v=4.1.0" rel="stylesheet">
+    <link href="/Public/Common/css/style.css?v=4.1.1" rel="stylesheet">
 	<style>
 		.chat-user:hover{
 			cursor:pointer;
@@ -43,60 +43,7 @@
                         <div class="row">
 
                             <div class="col-md-9 ">
-                                <div class="chat-discussion">
-
-                                    <div class="chat-message">
-                                        <img class="message-avatar" src="/Public/Common/img/a1.jpg" alt="">
-                                        <div class="message">
-                                            <a class="message-author" href="#"> 颜文字君</a>
-                                            <span class="message-date"> 2015-02-02 18:39:23 </span>
-                                            <span class="message-content">
-											H+ 是个好框架
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="chat-message">
-                                        <img class="message-avatar" src="/Public/Common/img/a4.jpg" alt="">
-                                        <div class="message">
-                                            <a class="message-author" href="#"> 林依晨Ariel </a>
-                                            <span class="message-date">  2015-02-02 11:12:36 </span>
-                                            <span class="message-content">
-											jQuery表单验证插件 - 让表单验证变得更容易
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="chat-message">
-                                        <img class="message-avatar" src="/Public/Common/img/a2.jpg" alt="">
-                                        <div class="message">
-                                            <a class="message-author" href="#"> 谨斯里 </a>
-                                            <span class="message-date">  2015-02-02 11:12:36 </span>
-                                            <span class="message-content">
-											验证日期格式(类似30/30/2008的格式,不验证日期准确性只验证格式
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="chat-message">
-                                        <img class="message-avatar" src="/Public/Common/img/a5.jpg" alt="">
-                                        <div class="message">
-                                            <a class="message-author" href="#"> 林依晨Ariel </a>
-                                            <span class="message-date">  2015-02-02 - 11:12:36 </span>
-                                            <span class="message-content">
-											还有约79842492229个Bug需要修复
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <div class="chat-message">
-                                        <img class="message-avatar" src="/Public/Common/img/a6.jpg" alt="">
-                                        <div class="message">
-                                            <a class="message-author" href="#"> 林依晨Ariel </a>
-                                            <span class="message-date">  2015-02-02 11:12:36 </span>
-                                            <span class="message-content">
-											九部令人拍案叫绝的惊悚悬疑剧情佳作】如果你喜欢《迷雾》《致命ID》《电锯惊魂》《孤儿》《恐怖游轮》这些好片，那么接下来推荐的9部同类题材并同样出色的的电影，绝对不可错过哦~
-
-                                            </span>
-                                        </div>
-                                    </div>
-
+                                <div class="chat-discussion" id="chat-discussion">
                                 </div>
 
                             </div>
@@ -104,10 +51,11 @@
                                 <div class="chat-users">
                                     <div class="users-list">
 										<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="chat-user" id="chat-<?php echo ($vo["user_id"]); ?>">
+
 												<a href="<?php echo U('User/index/',array('userid'=>$vo['user_id']));?>"> <img class="chat-avatar" src="<?php echo ($vo["user_smallheader"]); ?>" alt=""></a>
 												<div class="chat-user-name">
 													<a href="#"><?php echo ($vo["user_nickname"]); ?></a>
-												</div>
+												</div>					
 											</div><?php endforeach; endif; else: echo "" ;endif; ?>
 
                                     </div>
@@ -157,6 +105,7 @@
 			var id = $(this).attr('id');
 			id = id.split('-');
 			id = id[1];
+			$('#chat-'+id+' .msgNum').remove();
 			$('.hidden').remove();
 			var input = $('<input>');
 			input.attr("value",id);
@@ -179,6 +128,8 @@
 					$('.chat-discussion').html(data);
 				}
 			});
+			var div = document.getElementById('chat-discussion');
+			div.scrollTop = div.scrollHeight;
 		})
 		//提交消息
 		$('#setMsg').keydown(function(e){
@@ -204,19 +155,65 @@
 						}
 					}
 				});
+				var div = document.getElementById('chat-discussion');
+				div.scrollTop = div.scrollHeight;
 			}
 		})
-
-		function getMsg(){
-			$id = $('.hidden').val();
+		//获取即时通讯信息
+		function getMsgIns(){
+			var id = $('.hidden').val();
+			if(id){
+				$.ajax({
+					cache: true,
+					type: "POST",
+					url:'/Chat/getMsgIns',
+					data:{userid:id},
+					async: false,
+					error: function(request) {
+						alert("Connection error");
+					},
+//				dataType:'json',
+					success: function(data) {
+						var msg = $('.chat-discussion').html()+data;
+						$('.chat-discussion').html(msg);
+					}
+				});
+				var div = document.getElementById('chat-discussion');
+				div.scrollTop = div.scrollHeight;
+			}
 		}
-
-		function catchMsg(){
-
+		//获取消息条目
+		function getMsgNum(){
+			$.ajax({
+				cache: true,
+				type: "POST",
+				url:'/Chat/getMsgNum',
+				async: false,
+				error: function(request) {
+					alert("Connection error");
+				},
+				dataType:'json',
+				success: function(data) {
+//					alert(data);
+					if(data.length != 0){
+						$.each(data,function(i,item){
+							$('#chat-'+i+' .msgNum').remove();
+//							alert(item);
+							var span = $('<span>');
+							span.attr('class','label label-danger msgNum');
+							span.css('float','right');
+							span.html(item);
+							var div = $('#chat-'+i).children('.chat-user-name');
+							div.append(span);
+//							'<span class="label label-warning">16</span>';
+						})
+					}
+				}
+			});
 		}
+		setInterval('getMsgIns()',3000);
+		setInterval('getMsgNum()',3000);
 	</script>
-    
-    
 </body>
 
 </html>

@@ -12,6 +12,7 @@ use Think\Controller;
 
 class ChatController extends Controller{
     private $redis;
+
     function _initialize(){
         //实列化
         $this->redis = new \Redis();
@@ -75,7 +76,7 @@ class ChatController extends Controller{
 //        dump($data);
 //        die();
         $this->assign('user',$user);
-        $this->assign('data',$msg);
+        $this->assign('data',$data);
         $this->display();
     }
 
@@ -99,7 +100,41 @@ class ChatController extends Controller{
         }
     }
 
-    function catchMsg(){
-        
+    function getMsgNum(){
+        $id = $_SESSION['uinfo']['user_id'];
+        $num = $this->redis->lsize($id);
+        $n = array();
+        for($i = 0;$i < $num;$i++){
+            $data = $this->redis->lget($id,$i);
+            $data = json_decode($data,true);
+            if($data['isread'] == 0){
+                $n[$data['fromid']] += 1;
+            }
+        }
+        $n = json_encode($n);
+        echo $n;
+    }
+
+    function getMsgIns(){
+        $fromid = I('post.userid');
+        $user1 = D('User1');
+        $user = $user1->field('user_id,user_header,user_nickname')->find($fromid);
+        $id = $id = $_SESSION['uinfo']['user_id'];
+        $num = $this->redis->lsize($id);
+        $msg = array();
+        for($i = 0;$i < $num;$i++){
+            $data = $this->redis->lget($id,$i);
+            $data = json_decode($data,true);
+            if($data['fromid'] == $fromid && $data['isread'] == 0){
+                //设置为已读
+                $msg[] = $data;
+                $data['isread'] = 1;
+                $data = json_encode($data);
+                $this->redis->lset($id, $i, $data);
+            }
+        }
+        $this->assign('user',$user);
+        $this->assign('data',$msg);
+        $this->display('getMsg');
     }
 }
