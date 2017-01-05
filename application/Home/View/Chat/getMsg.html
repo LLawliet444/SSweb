@@ -1,0 +1,32 @@
+<volist name="data" id="vo">
+	<if condition="$vo['fromid'] eq $_SESSION['uinfo']['user_id']">
+		<div class="chat-message right">
+		<img class="message-avatar" src="{$Think.session.uinfo.user_header}" alt="">
+		<div class="message">
+			<a class="message-author" href="#"> {$Think.session.uinfo.user_nickname}
+			</a>
+		<span class="message-date">
+			{$vo.time|date="Y-m-d - H:i:s",###}
+		</span>
+		<span class="message-content">
+			{$vo.content}
+		</span>
+		</div>
+		</div>
+	<else />
+		<div class="chat-message left">
+		<img class="message-avatar" src="{$user.user_header}" alt="">
+		<div class="message">
+			<a class="message-author" href="#"> {$user.user_nickname}
+			</a>
+		<span class="message-date">
+			{$vo.time|date="Y-m-d - H:i:s",###}
+		</span>
+		<span class="message-content">
+			{$vo.content}
+		</span>
+		</div>
+		</div>
+	</if>
+
+</volist>

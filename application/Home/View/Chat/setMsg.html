@@ -1,0 +1,10 @@
+<img class="message-avatar" src="{$Think.session.uinfo.user_header}" alt="">
+<div class="message">
+	<a class="message-author" href="#"> {$Think.session.uinfo.user_nickname} </a>
+	<span class="message-date">
+		{$arr.time|date="Y-m-d - H:i:s",###}
+	</span>
+	<span class="message-content">
+		{$arr.content}
+	</span>
+</div>

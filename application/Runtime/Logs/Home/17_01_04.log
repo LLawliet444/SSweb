@@ -1,0 +1,294 @@
+[ 2017-01-04T18:09:27+08:00 ] 127.0.0.1 /Main/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.418098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.764427s ]
+
+[ 2017-01-04T18:09:46+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.616742s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.616928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.181668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.181811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.274276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.274397s ]
+
+[ 2017-01-04T18:09:47+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.772361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.772561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009091s ]
+
+[ 2017-01-04T18:09:49+08:00 ] 127.0.0.1 /Public/Common/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002651s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-04T18:10:13+08:00 ] 127.0.0.1 /Public/Common/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-04T18:10:18+08:00 ] 127.0.0.1 /Chat/index.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2017-01-04T18:10:28+08:00 ] 127.0.0.1 /User/smsgIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+SQL: select s.*,u1.user_nickname,u1.user_header,u1.user_id from ss_smsg as s left join ss_user1 as u1 on s.from_id=u1.user_id where u1.user_id in (1,2) order by s.smsg_ctime desc [ RunTime:1.4065s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=19     and up_type=0 )  [ RunTime:0.3695s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=18     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=17     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=16     and up_type=0 )  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=15     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=14     and up_type=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=12     and up_type=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=11     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=4     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=3     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=2     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=1     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=19 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.3469s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=18 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=17 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=16 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=15 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=13 and up_type=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=14 and up_type=1 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=14 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=12 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=11 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=4 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=3 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=2 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=12 and up_type=1 )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=1 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=1 and up_type=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=6 and up_type=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=7 and up_type=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=8 and up_type=1 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=9 and up_type=1 )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.599475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.599657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004431s ]
+
+[ 2017-01-04T18:10:38+08:00 ] 127.0.0.1 /User/myIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+
+[ 2017-01-04T18:10:40+08:00 ] 127.0.0.1 /User/index/userid/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SELECT * FROM `ss_systerm` WHERE ( from_uid=1 ) ORDER BY sys_ctime desc LIMIT 10   [ RunTime:0.6222s ]
+SQL: SELECT * FROM `ss_up` WHERE `up_id` = '65' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ss_smsg` WHERE `smsg_id` = '18'  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=18     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=18 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0009s ]
+SQL: SELECT `user_nickname`,`user_header` FROM `ss_user1` WHERE `user_id` = '2' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Use of undefined constant user_addr - assumed 'user_addr' E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 40 行.
+NOTIC: [8] Undefined index: smsg_id E:\Project\application\Runtime\Cache\Home\1fba6910b56e2190a3ee07b5e6309f64.php 第 254 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.262259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.262410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004483s ]
+
+[ 2017-01-04T18:10:40+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003047s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-04T18:10:40+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-04T18:12:10+08:00 ] 127.0.0.1 /Home/User/friend/id/1/type/fans
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SELECT `user_fans` FROM `ss_user1` WHERE `user_id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `user_id`,`user_nickname`,`user_addr`,`user_email`,`user_tel`,`user_header`,`user_intro` FROM `ss_user1` WHERE ( user_id in (1) )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-01-04T18:12:13+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-04T18:12:13+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-04T18:12:15+08:00 ] 127.0.0.1 /Home/User/friend/id/1/type/attention
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SELECT `user_attention` FROM `ss_user1` WHERE `user_id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `user_id`,`user_nickname`,`user_addr`,`user_email`,`user_tel`,`user_header`,`user_intro` FROM `ss_user1` WHERE ( user_id in (1,2) )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2017-01-04T18:12:20+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-04T18:12:20+08:00 ] 127.0.0.1 /Public/Common/js/demo/peity-demo.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-01-04T18:13:33+08:00 ] 127.0.0.1 /User/smsgIndex.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+SQL: select s.*,u1.user_nickname,u1.user_header,u1.user_id from ss_smsg as s left join ss_user1 as u1 on s.from_id=u1.user_id where u1.user_id in (1,2) order by s.smsg_ctime desc [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=19     and up_type=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=18     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=17     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=16     and up_type=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=15     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=14     and up_type=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=12     and up_type=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=11     and up_type=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=4     and up_type=0 )  [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=3     and up_type=0 )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=2     and up_type=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=1     and up_type=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=19 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=18 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=17 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=16 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=15 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0007s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='2' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='2' ) LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=13 and up_type=1 )  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=14 and up_type=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=14 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=12 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=11 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=4 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=3 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=2 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=12 and up_type=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_comment` WHERE ( title_id=1 ) ORDER BY comm_ctime asc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `user_nickname`,`user_header`,`user_id` FROM `ss_user1` WHERE ( 1=1 AND user_id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=1 and up_type=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=6 and up_type=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=7 and up_type=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=8 and up_type=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ss_up` WHERE ( user_id=1 and msg_id=9 and up_type=1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000834s ]
+
+[ 2017-01-04T19:37:40+08:00 ] 127.0.0.1 /Public/Common/js/plugins/pace/pace.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.034266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.064519s ]
+ERR: 无法加载控制器:Public
+

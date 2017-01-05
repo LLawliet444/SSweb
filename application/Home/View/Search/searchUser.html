@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<title> - 联系人</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<link rel="shortcut icon" href="__COMMON__/favicon.ico"> <link href="__COMMON__/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+	<link href="__COMMON__/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+
+	<link href="__COMMON__/css/animate.css" rel="stylesheet">
+	<link href="__COMMON__/css/style.css?v=4.1.0" rel="stylesheet">
+	<style>
+		.red{
+			color:red;
+		}
+	</style>
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+	<!--用户-->
+	<div class="row">
+		<if condition="$user eq NULL">
+			<h1>未搜索到相关用户</h1>
+		</if>
+		<volist name="user" id="vo">
+			<div class="col-sm-4">
+				<div class="contact-box">
+					<a>
+						<div class="col-sm-4">
+							<div class="text-center">
+								<img alt="image" class="img-circle m-t-xs img-responsive" src="{$vo.user_header}">
+							</div>
+						</div>
+						<div class="col-sm-8 user" id="{$vo.user_id}">
+							<h3><strong>{$vo.user_nickname}</strong></h3>
+							<if condition="empty($vo['user_addr'])">
+								<p><i class="fa fa-map-marker"></i><strong> 未知</strong> </p>
+								<else />
+								<p><i class="fa fa-map-marker"></i><strong> {$vo.user_addr}</strong> </p>
+							</if>
+
+							<address>
+								<strong>Email:</strong>{$vo.user_email}<br>
+								<strong>sign:</strong><a href="">{$vo.user_intro}</a><br>
+								<strong title="Phone">Tel:</strong> {$vo.user_tel}
+							</address>
+						</div>
+						<div class="clearfix"></div>
+					</a>
+				</div>
+			</div>
+		</volist>
+	</div>
+	<!--用户结束-->
+	<!--动态-->
+	<div class="row">
+
+		<div class="col-sm-12">
+			<if condition="$smsg_list eq NULL">
+				<h1>未搜索到相关状态</h1>
+			</if>
+			<volist name="smsg_list" id="vo">
+				<div class="social-feed-box">
+
+					<div class="pull-right social-action dropdown">
+						<button data-toggle="dropdown" class="dropdown-toggle btn-white">
+							<i class="fa fa-angle-down"></i>
+						</button>
+						<ul class="dropdown-menu m-t-xs">
+							<li><a href="#">设置</a></li>
+						</ul>
+					</div>
+					<div class="social-avatar">
+						<a href="" class="pull-left">
+							<img alt="image" src="{$vo.user1.user_header}">
+						</a>
+						<div class="media-body">
+							<a href="/User/index/userid/{$vo.from_id}">
+								{$vo.user1.user_nickname}
+							</a>
+							<small class="text-muted">{$vo.smsg_ctime|date="Y\年m\月d\日  H:i:s",###}</small>
+						</div>
+					</div>
+					<div class="social-body">
+						<p>
+							{$vo.smsg_content}
+						</p>
+
+						<div class="btn-group">
+							<if condition="$vo.flag eq 0">
+								<button value="{$vo.smsg_id}" class="btn btn-default btn-xs up"><i class="fa fa-thumbs-up"></i><span id="up-{$vo.smsg_id}"> {$vo.smsg_up}</span></button>
+								<else />
+								<button value="{$vo.smsg_id}" class="btn btn-success btn-xs up on"><i class="fa fa-thumbs-up"></i><span id="up-{$vo.smsg_id}"> {$vo.smsg_up}</span></button>
+							</if>
+							<button class="btn btn-white btn-xs commbox"><i class="fa fa-comments"></i> 评论</button>
+							<button class="btn btn-white btn-xs"><i class="fa fa-share"></i> 转发</button>
+						</div>
+					</div>
+					<div class="social-footer">
+						<div class="social-com">
+							<volist name="vo.smsg_comment" id="comm">
+								<div class="social-comment">
+									<a href="" class="pull-left">
+										<img alt="image" src="{$comm.user1.user_header}">
+									</a>
+									<div class="media-body">
+										<a href="/User/index/userid/{$comm.user1.user_id}">
+											{$comm.user1.user_nickname}
+										</a> {$comm.comm_content}
+										<br/>
+										<if condition="$comm.flag eq 0">
+											<a class="small" id="commup"><i class="fa fa-thumbs-up"></i> <span class="upnum" id="{$comm.comm_id}">{$comm.comm_up}</span></a>
+											<else />
+											<a class="small on" id="commup"><i class="fa fa-thumbs-up"></i> <span class="upnum" id="{$comm.comm_id}">{$comm.comm_up}</span></a>
+										</if>
+
+										-<small class="text-muted">{$comm.comm_ctime|date='Y\年m\月d\日',###}</small>
+									</div>
+								</div>
+							</volist>
+						</div>
+						<div class="social-comment setcomment" style="display:none;">
+							<a href="" class="pull-left">
+								<img alt="image" src="{$Think.session.uinfo.user_header}">
+							</a>
+							<div class="media-body">
+								<form action="{:U('Comment/addComment')}" class="comment" name="form-comment-{vo.smsg_id}" method="post">
+									<textarea class="form-control" placeholder="填写评论" name="content"></textarea>
+									<input type="submit" value="评论">
+									<input type="hidden" value="{$vo.smsg_id}" name="title">
+								</form>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</volist>
+		</div>
+	</div>
+	<!--动态结束-->
+
+</div>
+
+<!-- 全局js -->
+<script src="__COMMON__/js/jquery.min.js?v=2.1.4"></script>
+<script src="__COMMON__/js/bootstrap.min.js?v=3.3.6"></script>
+
+
+
+<!-- 自定义js -->
+<script src="__COMMON__/js/content.js?v=1.0.0"></script>
+
+
+
+<script>
+	$(document).ready(function () {
+		$('.contact-box').each(function () {
+			animationHover(this, 'pulse');
+		});
+	});
+	//单击进入页面
+	$('.user').click(function(){
+		var id= $(this).attr('id');
+		location.href = "http://www.project.com/User/index/userid/"+id;
+	})
+</script>
+
+
+
+
+</body>
+
+</html>
