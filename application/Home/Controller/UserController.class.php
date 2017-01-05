@@ -259,6 +259,11 @@ class UserController extends CommonController{
         $user1 = D('User1');
         $user1->user_attention = $user_attention;
         if($user1->where("user_id=".$_SESSION['uinfo']['user_id'])->save()){
+            //写入对方粉丝
+            $user_fans = $user1->find($atten_id);
+            $user_fans['user_fans'] .= ','.$_SESSION['uinfo']['user_id'];
+            $user1->user_fans = $user_fans['user_fans'];
+            $result = $user1->where("user_id=".$atten_id)->save();
             //写入系统消息
             $uid = $_SESSION['uinfo']['user_id'];
             $tid = $atten_id;
@@ -275,23 +280,20 @@ class UserController extends CommonController{
     //取消关注
     function revAtten(){
         $atten_id = I('post.uid');
-        $user_attention = $_SESSION['uinfo']['user_attention'];
-        //正则匹配
-        $num = preg_match("/,".$atten_id.",/",$user_attention);
-        if($num){
-            //存在表示在中间，直接替换
-            $user_attention = preg_replace("/,".$atten_id.",/",',',$user_attention);
-        }else{
-            //不在中间说明在结尾，截取掉
-            $idlength = mb_strlen(",".$atten_id,'UTF8');
-            $atlength = mb_strlen($user_attention,'UTF8');
-            $length = $atlength - $idlength;
-            $user_attention = substr($user_attention,0,$length);
-        }
-        //写入数据库并修改session里保存的数据
         $user1 = D('User1');
-        $user1->user_attention = $user_attention;
-        if($user1->where("user_id=".$_SESSION['uinfo']['user_id'])->save()){
+        $user_attention = $_SESSION['uinfo']['user_attention'];
+        $user_fans = $user1->find($atten_id);
+        $user_fans = $user_fans['user_fans'];
+//        var_dump($user_fans);
+//        die();
+        $user_attention = $this->preg($atten_id,$user_attention);
+        $user_fans = $this->preg($_SESSION['uinfo']['user_id'],$user_fans);
+        //写入数据库并修改session里保存的数据
+        $data['user_attention'] = $user_attention;
+        if($user1->where("user_id=".$_SESSION['uinfo']['user_id'])->save($data)){
+            //修改对方粉丝字段
+            $data2['user_fans'] = $user_fans;
+            $user1->where('user_id='.$atten_id)->save($data2);
             //删除系统消息
             $systerm = D('Systerm');
             $uid = $_SESSION['uinfo']['user_id'];
@@ -306,6 +308,22 @@ class UserController extends CommonController{
         }
     }
 
+    //从字符串中截取掉某个id
+    function preg($id,$str){
+        //正则匹配
+        $num = preg_match("/,".$id.",/",$str);
+        if($num){
+            //存在表示在中间，直接替换
+            $user_attention = preg_replace("/,".$id.",/",',',$str);
+        }else{
+            //不在中间说明在结尾，截取掉
+            $idlength = mb_strlen(",".$id,'UTF8');
+            $atlength = mb_strlen($str,'UTF8');
+            $length = $atlength - $idlength;
+            $str = substr($str,0,$length);
+        }
+        return $str;
+    }
     //粉丝页面
     function friend(){
         $user_id = I('get.id');

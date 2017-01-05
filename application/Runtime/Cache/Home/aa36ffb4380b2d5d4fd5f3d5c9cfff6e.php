@@ -83,7 +83,7 @@
                             </li>
                             <li><a class="J_menuItem" href="<?php echo U('User/smsgIndex');?>">好友动态</a>
                             </li>
-                            <li><a class="J_menuItem" href="./Social/chat_view.html">即时聊天</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Chat/index');?>">即时聊天</a>
                             </li>
                             <li><a class="J_menuItem" href="./Social/calendar.html">日历</a>
                             </li>
@@ -110,7 +110,7 @@
             <div class="row border-bottom">
                 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                     <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-info " href="#"><i class="fa fa-bars"></i> </a>
-                        <form role="search" class="navbar-form-custom" method="post" action="search_results.html">
+                        <form name="search" class="navbar-form-custom" method="post" action="<?php echo U('Search/searchUser');?>">
                             <div class="form-group">
                                 <input type="text" placeholder="请输入您需要查找的内容 …" class="form-control" name="top-search" id="top-search" > 
                                 <!-- <input type='button' class="form-control"></input>  -->
@@ -224,9 +224,9 @@
     <script src="/Public/Common/js/plugins/pace/pace.min.js"></script>
     <script type="text/javascript">
         //添加状态
-        $('#smsgAdd').click(function(){
-            location.href = "<?php echo U('User/smsgAdd');?>";
-        });
+//        $('#smsgAdd').click(function(){
+//            location.href = "<?php echo U('User/smsgAdd');?>";
+//        });
         //退出登录
         $('#logout').click(function(){
             location.href = "<?php echo U('Login/logOut');?>";

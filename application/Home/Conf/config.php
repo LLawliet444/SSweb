@@ -21,4 +21,5 @@ return array(
     'PAGESIZE' => 2,
     //关闭页面trace
     'SHOW_PAGE_TRACE' => false,
+
 );

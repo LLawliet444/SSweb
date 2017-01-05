@@ -283,10 +283,10 @@
 
 
     <!-- Peity -->
-    <script src="/Public/Common/js/plugins/peity/jquery.peity.min.js"></script>
+    <!--<script src="/Public/Common/js/plugins/peity/jquery.peity.min.js"></script>-->
 
     <!-- Peity -->
-    <script src="/Public/Common/js/demo/peity-demo.js"></script>
+    <!--<script src="/Public/Common/js/demo/peity-demo.js"></script>-->
 
 	<script>
 		//关注或者取消关注
@@ -306,6 +306,7 @@
 						alert("Connection error");
 					},
 					success: function (data) {
+//						alert(data);
 						if(data == 'OK'){
 							button.attr('class','btn btn-primary btn-sm btn-block');
 							button.html('<i class="fa fa-coffee"></i> 关注</button>');

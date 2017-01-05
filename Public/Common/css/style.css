@@ -5483,12 +5483,12 @@ dd.project-people {
     margin-top: 1px;
 }
 
-.chat-discussion .chat-message:nth-child(2n+1) .message-avatar {
+.chat-discussion .left .message-avatar {
     float: left;
     margin-right: 10px;
 }
 
-.chat-discussion .chat-message:nth-child(2n) .message-avatar {
+.chat-discussion .right .message-avatar {
     float: right;
     margin-left: 10px;
 }
@@ -5503,20 +5503,20 @@ dd.project-people {
     border-radius: 4px;
 }
 
-.chat-discussion .chat-message:nth-child(2n+1) .message-date {
+.chat-discussion .left .message-date {
     float: right;
 }
 
-.chat-discussion .chat-message:nth-child(2n) .message-date {
+.chat-discussion .right .message-date {
     float: left;
 }
 
-.chat-discussion .chat-message:nth-child(2n+1) .message {
+.chat-discussion .left .message {
     text-align: left;
     margin-left: 55px;
 }
 
-.chat-discussion .chat-message:nth-child(2n) .message {
+.chat-discussion .right .message {
     text-align: right;
     margin-right: 55px;
 }

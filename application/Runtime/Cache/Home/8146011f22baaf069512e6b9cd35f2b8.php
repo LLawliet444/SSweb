@@ -77,7 +77,7 @@
                                 <?php else: ?>
                                 <button value="<?php echo ($vo["smsg_id"]); ?>" class="btn btn-success btn-xs up on"><i class="fa fa-thumbs-up"></i><span id="up-<?php echo ($vo["smsg_id"]); ?>"> <?php echo ($vo["smsg_up"]); ?></span></button><?php endif; ?>
 								<button class="btn btn-white btn-xs commbox"><i class="fa fa-comments"></i> 评论</button>
-								<button class="btn btn-white btn-xs"><i class="fa fa-share"></i> 分享</button>
+								<button class="btn btn-white btn-xs"><i class="fa fa-share"></i> 转发</button>
 							</div>
 						</div>
 						<div class="social-footer">

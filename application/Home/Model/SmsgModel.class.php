@@ -22,7 +22,7 @@ class SmsgModel extends RelationModel{
             'mapping_type'=>self::BELONGS_TO,
             'foreign_key'=>'from_id',
             'class_name'=>'User1',
-            'mapping_fields'=>array('user_name','user_header'),
+            'mapping_fields'=>array('user_nickname','user_header'),
         ),
     );
     //字段映射
